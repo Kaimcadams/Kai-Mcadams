@@ -1,0 +1,167 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #0a0807;
+  --ink-2: #14100e;
+  --ink-3: #1d1815;
+  --bone: #e8e2d4;
+  --bone-dim: #a8a092;
+  --muted: #6a635a;
+  --rule: #2a231f;
+  --cinema: #a01a1a;
+  --cinema-deep: #5a0a0a;
+  --gold: #c9a45c;
+}
+
+@theme inline {
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-bone: var(--bone);
+  --color-bone-dim: var(--bone-dim);
+  --color-muted: var(--muted);
+  --color-rule: var(--rule);
+  --color-cinema: var(--cinema);
+  --color-cinema-deep: var(--cinema-deep);
+  --color-gold: var(--gold);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
+}
+
+html {
+  background: var(--ink);
+  color: var(--bone);
+}
+
+body {
+  background: var(--ink);
+  color: var(--bone);
+  font-family: var(--font-body), Georgia, "Times New Roman", serif;
+  font-size: 19px;
+  line-height: 1.7;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--cinema);
+  color: var(--bone);
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+.grain {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 60;
+  opacity: 0.06;
+  mix-blend-mode: overlay;
+}
+
+.scanlines {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 55;
+  opacity: 0.025;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 2px,
+    var(--bone) 2px,
+    var(--bone) 3px
+  );
+}
+
+.vignette {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 50;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 40%,
+    rgba(0, 0, 0, 0.45) 100%
+  );
+}
+
+@keyframes marquee-track {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-50%, 0, 0); }
+}
+
+.marquee-track {
+  animation: marquee-track 48s linear infinite;
+  will-change: transform;
+}
+
+.marquee-track-slow {
+  animation-duration: 80s;
+}
+
+.font-display {
+  font-family: var(--font-display), Georgia, serif;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 0.95;
+}
+
+.font-body {
+  font-family: var(--font-body), Georgia, serif;
+}
+
+.font-mono {
+  font-family: var(--font-mono), "Courier New", monospace;
+}
+
+.label {
+  font-family: var(--font-mono), monospace;
+  text-transform: uppercase;
+  font-size: 10.5px;
+  letter-spacing: 0.28em;
+  color: var(--bone-dim);
+  font-weight: 400;
+}
+
+.label-sm {
+  font-family: var(--font-mono), monospace;
+  text-transform: uppercase;
+  font-size: 9.5px;
+  letter-spacing: 0.32em;
+  color: var(--muted);
+}
+
+.subscribe-frame {
+  background: var(--ink-2);
+}
+
+.prose-bone p {
+  margin: 1.1em 0;
+  color: var(--bone-dim);
+}
+.prose-bone a {
+  color: var(--cinema);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
