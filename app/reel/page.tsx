@@ -16,8 +16,8 @@ export const metadata = {
  * Leave id as "" to show the placeholder frame.
  */
 const REEL: { platform: "vimeo" | "youtube"; id: string } = {
-  platform: "vimeo",
-  id: "",
+  platform: "youtube",
+  id: "2GXX3Yc-bUs", // Stand-in: Kai McAdams Showreel. Swap for the new cut when ready.
 };
 
 function embedSrc(): string | null {

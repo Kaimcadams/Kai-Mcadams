@@ -16,15 +16,21 @@ type Credit = {
 const EXPERIENCE: Credit[] = [
   {
     title: "Production Creative Director",
-    role: "Direction · Editorial · Brand Storytelling",
+    role: "Direction · Editing · Brand Storytelling",
     org: "Chambiar AI",
-    date: "2025 — Present",
+    date: "Mar 2025 — Present",
   },
   {
-    title: "Co-Founder · Digital Media Supervisor",
-    role: "Creative Direction · Identity · Content Systems",
+    title: "Digital Media Supervisor · Co-Founder",
+    role: "Creative Direction · Identity · Marketing",
     org: "Dead Billiards",
-    date: "2024 — Present",
+    date: "Jan 2025 — Present",
+  },
+  {
+    title: "Associate Supervisor",
+    role: "Operations · Guest Experience",
+    org: "AMC Theatres",
+    date: "Jun 2022 — Apr 2023",
   },
 ];
 
@@ -50,13 +56,12 @@ const DESIGN: Credit[] = [
 ];
 
 const SCREENINGS: Credit[] = [
-  { title: "Fangoria — Invitee", role: "Fangoria", date: "April 2025" },
-  { title: "Hell of a Summer", role: "Letterboxd × NEON", date: "April 2025" },
-  { title: "Locked", role: "Letterboxd", date: "March 2025" },
-  { title: "Screening Squad", role: "Screening Squad", date: "November 2024" },
-  { title: "Longlegs", role: "Letterboxd × NEON", date: "July 2024" },
-  { title: "The Strangers: Chapter 1", role: "Bloody Disgusting", date: "May 2024" },
-  { title: "Final Destination Bloodlines — Invitee", role: "—", date: "—" },
+  { title: "Final Destination Bloodlines", role: "Fangoria — Invitee", date: "April 2025" },
+  { title: "Hell of a Summer", role: "Letterboxd × NEON — Invitee", date: "April 2025" },
+  { title: "Locked", role: "Letterboxd — Invitee", date: "March 2025" },
+  { title: "NDA", role: "Screening Squad — Invitee", date: "November 2024" },
+  { title: "Longlegs", role: "Letterboxd × NEON — Invitee", date: "July 2024" },
+  { title: "The Strangers: Chapter 1", role: "Bloody Disgusting — Invitee", date: "May 2024" },
 ];
 
 function CreditList({ items }: { items: Credit[] }) {
@@ -186,21 +191,31 @@ export default function CVPage() {
           </h3>
           <p className="mt-3 text-[var(--bone-dim)] text-base md:text-lg leading-relaxed">
             BA in Screen Studies. Minors in Film Production and Culture &amp;
-            Media. Dean&apos;s List.
+            Media. GPA 3.9 · Dean&apos;s List Honor Student.
           </p>
         </div>
       </Section>
 
       <Section title="Skills & Languages">
-        <div className="border-t border-b border-[var(--rule)] py-6 max-w-3xl grid grid-cols-1 md:grid-cols-2 gap-y-4">
+        <div className="border-t border-b border-[var(--rule)] py-6 max-w-3xl grid grid-cols-1 md:grid-cols-2 gap-y-6 gap-x-10">
           <p className="text-[var(--bone-dim)]">
             <span className="label block mb-1">Craft</span>
-            Direction · Editing · Cinematography · Graphic Design · Criticism ·
-            Film Programming &amp; Curation
+            Direction · Editing · Videography · Cinematography · Pre-Production ·
+            Graphic &amp; Web Design · Film Programming &amp; Curation · Criticism
+          </p>
+          <p className="text-[var(--bone-dim)]">
+            <span className="label block mb-1">Tools</span>
+            DaVinci Resolve · Adobe Premiere Pro · After Effects · Adobe Creative
+            Suite · Photoshop · Canva
+          </p>
+          <p className="text-[var(--bone-dim)]">
+            <span className="label block mb-1">Strategy</span>
+            Creative &amp; Campaign Strategy · Social Media Marketing · Project
+            Management (Asana) · Google Analytics · HubSpot
           </p>
           <p className="text-[var(--bone-dim)]">
             <span className="label block mb-1">Languages</span>
-            English · Spanish (fluent)
+            English · Spanish — Bilingual
           </p>
         </div>
       </Section>
