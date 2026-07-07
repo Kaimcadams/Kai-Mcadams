@@ -6,6 +6,8 @@ const FEED_URL = "https://kaimcadams.substack.com/feed";
 export type Post = {
   title: string;
   link: string;
+  slug: string;
+  content: string;
   isoDate: string | null;
   pubDate: string | null;
   contentSnippet: string;
@@ -47,6 +49,15 @@ function makeSnippet(item: Item, max = 220): string {
   return cleaned.slice(0, max).replace(/\s+\S*$/, "") + "…";
 }
 
+function makeSlug(item: Item): string {
+  const slugMatch = (item.link || "").match(/\/p\/([^/?]+)/);
+  if (slugMatch) return slugMatch[1];
+  return (item.title || "post")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 async function fetchAndParse(): Promise<Post[]> {
   try {
     const res = await fetch(FEED_URL, {
@@ -60,6 +71,8 @@ async function fetchAndParse(): Promise<Post[]> {
     return items.map((item) => ({
       title: item.title ?? "Untitled",
       link: item.link ?? "#",
+      slug: makeSlug(item),
+      content: item["content:encoded"] || item.content || "",
       isoDate: item.isoDate ?? null,
       pubDate: item.pubDate ?? null,
       contentSnippet: makeSnippet(item),
@@ -72,7 +85,12 @@ async function fetchAndParse(): Promise<Post[]> {
   }
 }
 
-export const getSubstackPosts = unstable_cache(fetchAndParse, ["substack-feed"], {
+export const getPosts = unstable_cache(fetchAndParse, ["substack-feed"], {
   revalidate: 900,
   tags: ["substack-feed"],
 });
+
+export async function getPostBySlug(slug: string): Promise<Post | null> {
+  const posts = await getPosts();
+  return posts.find((p) => p.slug === slug) || null;
+}

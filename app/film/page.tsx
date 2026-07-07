@@ -1,6 +1,5 @@
 import FadeIn from "../components/FadeIn";
 import FilmCard from "../components/FilmCard";
-import Marquee from "../components/Marquee";
 
 const FILMS = [
   { number: 1, title: "Chambiar AI Demo", role: "Director · Editor", date: "March 2025" },
@@ -22,14 +21,13 @@ export default function FilmPage() {
     <>
       <section className="relative px-6 md:px-20 max-w-[1280px] mx-auto pt-44 md:pt-56 pb-20">
         <FadeIn className="max-w-3xl">
-          <p className="label mb-8">Nº 001 / Practice</p>
           <h1
-            className="font-display tracking-tight leading-[0.95] mb-10"
+            className="font-bold tracking-tight leading-[1.0] mb-10"
             style={{ fontSize: "clamp(3rem, 9vw, 8rem)" }}
           >
-            <span className="italic">Film</span>
+            Film
           </h1>
-          <p className="text-2xl md:text-3xl italic text-[var(--bone-dim)] leading-snug max-w-2xl">
+          <p className="text-xl md:text-2xl text-[var(--bone-dim)] leading-snug max-w-2xl">
             Direction and editorial work in narrative, music, and brand.
             Selected projects below.
           </p>
@@ -46,7 +44,6 @@ export default function FilmPage() {
         </div>
       </section>
 
-      <Marquee items={["Direction", "Editorial", "Narrative", "Music", "Brand"]} slow />
     </>
   );
 }

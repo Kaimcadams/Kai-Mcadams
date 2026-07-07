@@ -1,31 +1,15 @@
 import type { Metadata } from "next";
-import { DM_Serif_Display, Cormorant_Garamond, Space_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import SmoothScroll from "./components/SmoothScroll";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Grain from "./components/Grain";
 
-const display = DM_Serif_Display({
-  variable: "--font-display",
+const inter = Inter({
   subsets: ["latin"],
-  weight: ["400"],
-  style: ["normal", "italic"],
-  display: "swap",
-});
-
-const body = Cormorant_Garamond({
-  variable: "--font-body",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-  style: ["normal", "italic"],
-  display: "swap",
-});
-
-const mono = Space_Mono({
-  variable: "--font-mono",
-  subsets: ["latin"],
-  weight: ["400", "700"],
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-sans",
   display: "swap",
 });
 
@@ -46,10 +30,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html
-      lang="en"
-      className={`${display.variable} ${body.variable} ${mono.variable}`}
-    >
+    <html lang="en" className={inter.variable}>
       <body>
         <SmoothScroll>
           <Header />

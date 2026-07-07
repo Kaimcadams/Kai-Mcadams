@@ -5,10 +5,12 @@ import Link from "next/link";
 import { useEffect } from "react";
 
 const NAV = [
-  { href: "/", label: "Index" },
+  { href: "/", label: "Home" },
+  { href: "/reel", label: "Reel" },
   { href: "/film", label: "Film" },
   { href: "/graphic-design", label: "Graphic Design" },
   { href: "/cinematic-analysis", label: "Cinematic Analysis" },
+  { href: "/cv", label: "CV" },
   { href: "/about", label: "About" },
 ];
 
@@ -78,17 +80,14 @@ export default function DrawerMenu({ open, onClose }: Props) {
             </div>
             <nav className="flex-1 overflow-y-auto px-8 py-10 flex flex-col">
               <ul className="space-y-5">
-                {NAV.map((item, i) => (
+                {NAV.map((item) => (
                   <li key={item.href}>
                     <Link
                       href={item.href}
                       onClick={onClose}
-                      className="group flex items-baseline gap-4"
+                      className="group block"
                     >
-                      <span className="label text-[var(--muted)] group-hover:text-[var(--cinema)] transition-colors">
-                        {String(i + 1).padStart(2, "0")}
-                      </span>
-                      <span className="font-display text-3xl md:text-4xl leading-none tracking-tight text-[var(--bone)] group-hover:text-[var(--cinema)] transition-colors">
+                      <span className="text-3xl md:text-4xl font-bold leading-none tracking-tight text-[var(--bone)] group-hover:text-[var(--cinema)] transition-colors">
                         {item.label}
                       </span>
                     </Link>
@@ -97,7 +96,7 @@ export default function DrawerMenu({ open, onClose }: Props) {
               </ul>
 
               <div className="mt-auto pt-12">
-                <p className="label mb-4">Elsewhere</p>
+                <p className="label mb-4">Connect</p>
                 <ul className="space-y-3">
                   {SOCIALS.map((s) => (
                     <li key={s.href}>
@@ -118,7 +117,7 @@ export default function DrawerMenu({ open, onClose }: Props) {
                   rel="noopener noreferrer"
                   className="mt-8 inline-block label border border-[var(--cinema)] text-[var(--cinema)] px-5 py-3 hover:bg-[var(--cinema)] hover:text-[var(--bone)] transition-colors"
                 >
-                  ✚ Subscribe
+                  Subscribe
                 </a>
               </div>
             </nav>

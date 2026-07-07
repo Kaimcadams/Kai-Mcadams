@@ -15,12 +15,10 @@ export default function Marquee({
 }: Props) {
   const loop = Array.from({ length: 8 }).flatMap(() => items);
   const color =
-    tone === "cinema" ? "text-[var(--bone)]" : "text-[var(--bone-dim)]";
+    tone === "cinema" ? "text-white" : "text-[var(--bone-dim)]";
   const bg = tone === "cinema" ? "bg-[var(--cinema)]" : "bg-transparent";
   const border =
-    tone === "cinema"
-      ? "border-y border-[var(--cinema-deep)]"
-      : "border-y border-[var(--rule)]";
+    tone === "cinema" ? "" : "border-y border-[var(--rule)]";
 
   return (
     <div
@@ -35,13 +33,13 @@ export default function Marquee({
             {loop.map((item, i) => (
               <span
                 key={`${dup}-${i}`}
-                className={`font-mono uppercase ${color} text-[11px] tracking-[0.32em] px-6 flex items-center`}
+                className={`font-medium uppercase ${color} text-[11px] tracking-[0.2em] px-6 flex items-center`}
               >
                 {item}
                 <span
                   className={`mx-6 ${tone === "cinema" ? "text-[var(--bone)]" : "text-[var(--cinema)]"}`}
                 >
-                  ★
+                  ·
                 </span>
               </span>
             ))}

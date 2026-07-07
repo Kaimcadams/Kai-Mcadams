@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 :root {
   --ink: #0a0807;
@@ -8,7 +9,7 @@
   --bone-dim: #a8a092;
   --muted: #6a635a;
   --rule: #2a231f;
-  --cinema: #a01a1a;
+  --cinema: #8b1414;
   --cinema-deep: #5a0a0a;
   --gold: #c9a45c;
 }
@@ -24,9 +25,7 @@
   --color-cinema: var(--cinema);
   --color-cinema-deep: var(--cinema-deep);
   --color-gold: var(--gold);
-  --font-display: var(--font-display);
-  --font-body: var(--font-body);
-  --font-mono: var(--font-mono);
+  --font-sans: var(--font-sans);
 }
 
 html {
@@ -37,9 +36,9 @@ html {
 body {
   background: var(--ink);
   color: var(--bone);
-  font-family: var(--font-body), Georgia, "Times New Roman", serif;
-  font-size: 19px;
-  line-height: 1.7;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -111,43 +110,52 @@ html.lenis body {
 }
 
 .marquee-track {
-  animation: marquee-track 48s linear infinite;
+  animation: marquee-track 120s linear infinite;
   will-change: transform;
 }
 
 .marquee-track-slow {
-  animation-duration: 80s;
+  animation-duration: 120s;
 }
 
-.font-display {
-  font-family: var(--font-display), Georgia, serif;
-  font-weight: 400;
+/* Streetlamp flicker — irregular keyframe spacing for "dying bulb" rhythm */
+@keyframes lampFlicker {
+  0%, 18%, 22%, 23.5%, 24%, 38%, 50%, 51%, 64%, 75%, 76%, 100% {
+    opacity: 1;
+  }
+  18.5%, 21.5%, 23.1%, 23.7%, 38.5%, 50.5%, 63.5%, 75.5% {
+    opacity: 0.12;
+  }
+  24.5%, 50.7%, 75.8% {
+    opacity: 0.35;
+  }
+}
+
+.flicker {
+  animation: lampFlicker 7s infinite;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-sans), system-ui, sans-serif;
   letter-spacing: -0.02em;
-  line-height: 0.95;
-}
-
-.font-body {
-  font-family: var(--font-body), Georgia, serif;
-}
-
-.font-mono {
-  font-family: var(--font-mono), "Courier New", monospace;
+  line-height: 1.05;
 }
 
 .label {
-  font-family: var(--font-mono), monospace;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-weight: 500;
   text-transform: uppercase;
-  font-size: 10.5px;
-  letter-spacing: 0.28em;
+  font-size: 11px;
+  letter-spacing: 0.15em;
   color: var(--bone-dim);
-  font-weight: 400;
 }
 
 .label-sm {
-  font-family: var(--font-mono), monospace;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-weight: 500;
   text-transform: uppercase;
-  font-size: 9.5px;
-  letter-spacing: 0.32em;
+  font-size: 10px;
+  letter-spacing: 0.18em;
   color: var(--muted);
 }
 
@@ -155,13 +163,45 @@ html.lenis body {
   background: var(--ink-2);
 }
 
-.prose-bone p {
-  margin: 1.1em 0;
-  color: var(--bone-dim);
+/* Override prose colors to match the ink/bone palette */
+.prose-bone {
+  --tw-prose-body: var(--bone-dim);
+  --tw-prose-headings: var(--bone);
+  --tw-prose-lead: var(--bone-dim);
+  --tw-prose-links: var(--cinema);
+  --tw-prose-bold: var(--bone);
+  --tw-prose-counters: var(--muted);
+  --tw-prose-bullets: var(--muted);
+  --tw-prose-hr: var(--rule);
+  --tw-prose-quotes: var(--bone);
+  --tw-prose-quote-borders: var(--cinema);
+  --tw-prose-captions: var(--muted);
+  --tw-prose-code: var(--bone);
+  --tw-prose-pre-code: var(--bone);
+  --tw-prose-pre-bg: var(--ink-2);
+  --tw-prose-th-borders: var(--rule);
+  --tw-prose-td-borders: var(--rule);
 }
 .prose-bone a {
-  color: var(--cinema);
   text-decoration: underline;
   text-underline-offset: 3px;
   text-decoration-thickness: 1px;
+}
+.prose-bone a:hover {
+  color: var(--bone);
+}
+.prose-bone img,
+.prose-bone figure img {
+  border: 1px solid var(--rule);
+  margin-inline: auto;
+}
+.prose-bone figcaption {
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+.prose-bone hr {
+  border-color: var(--rule);
+}
+.prose-bone blockquote {
+  font-style: italic;
 }

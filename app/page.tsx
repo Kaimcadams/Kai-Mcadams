@@ -1,11 +1,11 @@
 import Link from "next/link";
-import HeroName from "./components/HeroName";
+import StreetlampHero from "./components/StreetlampHero";
 import Marquee from "./components/Marquee";
 import FadeIn from "./components/FadeIn";
 import PostCard from "./components/PostCard";
 import FilmCard from "./components/FilmCard";
 import SubscribeForm from "./components/SubscribeForm";
-import { getSubstackPosts } from "@/lib/substack";
+import { getPosts } from "@/lib/substack";
 
 export const revalidate = 900;
 
@@ -17,66 +17,51 @@ const SELECTED_WORK = [
 ];
 
 export default async function Home() {
-  const posts = await getSubstackPosts();
+  const posts = await getPosts();
   const featured = posts[0];
   const rest = posts.slice(1, 3);
 
   return (
     <>
-      {/* HERO */}
-      <section className="relative min-h-[100svh] flex flex-col">
-        <div className="flex-1 flex items-end pt-32 pb-12 px-6 md:px-20 max-w-[1280px] mx-auto w-full">
-          <div className="w-full">
-            <p className="label mb-8 text-[var(--cinema)]">
-              ✕ Est. New York · A Working Index
-            </p>
-            <HeroName mode="hero" />
-            <div className="mt-10 max-w-xl">
-              <p className="font-mono uppercase text-[11px] tracking-[0.32em] text-[var(--bone-dim)] leading-relaxed">
-                Filmmaker
-                <span className="mx-3 text-[var(--cinema)]">·</span>
-                Editor
-                <span className="mx-3 text-[var(--cinema)]">·</span>
-                Critic
-                <span className="mx-3 text-[var(--cinema)]">·</span>
-                New York
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="relative">
-          <Marquee />
-        </div>
-      </section>
+      <StreetlampHero />
+
+      {/* Marquee on solid theater-red, flush against the hero */}
+      <div style={{ background: "var(--cinema)" }}>
+        <Marquee tone="cinema" slow />
+      </div>
+
+      {/* Red → ink wash, after the marquee */}
+      <div
+        aria-hidden
+        className="h-[18vh] w-full"
+        style={{
+          background:
+            "linear-gradient(to bottom, var(--cinema) 0%, var(--ink) 100%)",
+        }}
+      />
 
       {/* INTRO */}
-      <section className="relative px-6 md:px-20 max-w-[1280px] mx-auto py-32 md:py-44">
-        <FadeIn className="grid grid-cols-1 md:grid-cols-12 gap-10">
-          <div className="md:col-span-3">
-            <p className="label">Nº 001 — The Index</p>
-            <div className="w-12 h-px bg-[var(--cinema)] mt-6" />
-          </div>
-          <div className="md:col-span-8 md:col-start-5">
-            <p className="font-display italic text-3xl md:text-5xl leading-[1.15] tracking-tight text-[var(--bone)]">
-              A New York–based filmmaker, editor, and critic working across
-              cinema, criticism, and graphic design — with a focus on horror,
-              the macabre, and the queer Latinx imaginary.
-            </p>
-            <Link
-              href="/about"
-              className="inline-block mt-10 label hover:text-[var(--cinema)] transition-colors"
-            >
-              Read the full statement →
-            </Link>
-          </div>
+      <section className="relative px-6 md:px-20 max-w-[1280px] mx-auto pt-8 pb-32 md:pb-44">
+        <FadeIn>
+          <p className="text-2xl md:text-4xl font-medium leading-[1.25] tracking-tight text-[var(--bone)] max-w-3xl">
+            A New York–based filmmaker, editor, and critic working across
+            cinema, criticism, and graphic design — with a focus on horror,
+            the macabre, and the queer Latinx imaginary.
+          </p>
+          <Link
+            href="/about"
+            className="inline-block mt-10 label hover:text-[var(--cinema)] transition-colors"
+          >
+            Read more →
+          </Link>
         </FadeIn>
       </section>
 
       {/* SELECTED WORK */}
       <section className="relative px-6 md:px-20 max-w-[1280px] mx-auto py-20 md:py-28">
         <FadeIn className="flex items-baseline justify-between mb-16 pb-6 border-b border-[var(--rule)]">
-          <h2 className="font-display text-4xl md:text-6xl tracking-tight">
-            Selected <span className="italic">Work</span>
+          <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
+            Selected Film Works
           </h2>
           <Link
             href="/film"
@@ -94,31 +79,52 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* LATEST DISPATCH */}
+      {/* GOREHOUND GRINDHOUSE — FEATURED PUBLICATION */}
       <section className="relative px-6 md:px-20 max-w-[1280px] mx-auto py-20 md:py-28 mt-12">
-        <FadeIn className="flex items-baseline justify-between mb-12 pb-6 border-b border-[var(--rule)]">
-          <h2 className="font-display text-4xl md:text-6xl tracking-tight">
-            Latest <span className="italic">Dispatch</span>
-          </h2>
-          <Link
-            href="/cinematic-analysis"
-            className="label hover:text-[var(--cinema)] transition-colors"
-          >
-            Gorehound Grindhouse →
-          </Link>
+        <FadeIn className="mb-12 pb-8 border-b border-[var(--rule)]">
+          <p className="label mb-4">Latest Dispatch — The Publication</p>
+          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
+            <div>
+              <h2
+                className="font-bold tracking-tight leading-[0.95] text-[var(--bone)]"
+                style={{ fontSize: "clamp(2.25rem, 6vw, 4.5rem)" }}
+              >
+                Gorehound Grindhouse
+              </h2>
+              <p className="mt-3 text-lg md:text-2xl font-medium text-[var(--cinema)] tracking-tight">
+                A Midnight Digest of Media and the Macabre.
+              </p>
+            </div>
+            <div className="flex items-center gap-6 shrink-0">
+              <a
+                href="https://kaimcadams.substack.com/subscribe"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="label border border-[var(--cinema)] text-[var(--cinema)] px-5 py-3 hover:bg-[var(--cinema)] hover:text-[var(--bone)] transition-colors whitespace-nowrap"
+              >
+                Subscribe
+              </a>
+              <Link
+                href="/cinematic-analysis"
+                className="label hover:text-[var(--cinema)] transition-colors whitespace-nowrap"
+              >
+                Read All →
+              </Link>
+            </div>
+          </div>
         </FadeIn>
 
         {featured ? (
           <div className="grid grid-cols-1 md:grid-cols-12 gap-10">
             <div className="md:col-span-8">
               <FadeIn>
-                <PostCard post={featured} index={0} variant="featured" />
+                <PostCard post={featured} variant="featured" />
               </FadeIn>
             </div>
             <div className="md:col-span-4 flex flex-col">
               {rest.map((post, i) => (
                 <FadeIn key={post.link} delay={(i + 1) * 0.08}>
-                  <PostCard post={post} index={i + 1} />
+                  <PostCard post={post} />
                 </FadeIn>
               ))}
               {rest.length === 0 && (
@@ -142,11 +148,6 @@ export default async function Home() {
         </FadeIn>
       </section>
 
-      {/* MARQUEE STRIP */}
-      <Marquee
-        items={["Filmmaker", "Editor", "Critic", "New York"]}
-        slow
-      />
     </>
   );
 }

@@ -1,13 +1,13 @@
 export default function SubscribeForm() {
   return (
     <div className="border border-[var(--rule)] bg-[var(--ink-2)] p-8 md:p-12">
-      <p className="label mb-2 text-[var(--cinema)]">✚ Join the Congregation</p>
-      <h3 className="font-display italic text-3xl md:text-5xl tracking-tight leading-[1.05] mb-6">
+      <p className="label mb-3 text-[var(--cinema)]">Subscribe</p>
+      <h3 className="text-3xl md:text-5xl font-bold tracking-tight leading-[1.05] mb-6">
         New dispatches,
         <br />
         delivered after dark.
       </h3>
-      <p className="text-[var(--bone-dim)] italic max-w-md mb-8">
+      <p className="text-[var(--bone-dim)] max-w-md mb-8">
         Free — no spam, occasional bloodshed. Gorehound Grindhouse arrives in
         your inbox, on a witching-hour schedule.
       </p>
