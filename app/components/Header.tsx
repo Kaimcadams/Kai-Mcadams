@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import DrawerMenu from "./DrawerMenu";
@@ -30,17 +31,39 @@ export default function Header() {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 right-0 z-40 transition-colors duration-500 ${
-          scrolled || !isHome
-            ? "bg-[rgba(10,8,7,0.78)] backdrop-blur-md border-b border-[var(--rule)]"
-            : "bg-transparent"
-        }`}
+        className="fixed top-0 left-0 right-0 z-40 pointer-events-none"
+        style={{
+          // Black at the top fading to transparent, ending 20px past the menu
+          // row (pt-5 = 20px + h-14 = 56px, so the row ends at 76px).
+          background:
+            "linear-gradient(to bottom, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.82) 55%, rgba(0,0,0,0) 100%)",
+          height: "116px",
+        }}
       >
-        <div className="mx-auto max-w-[1280px] px-6 md:px-20">
-          <div className="flex items-center justify-between h-14">
+        <div className="mx-auto max-w-[1280px] px-6 md:px-20 pt-5">
+          <div className="relative flex items-center justify-between h-14">
             <Link
               href="/"
-              className={`text-base md:text-lg font-semibold tracking-tight text-[var(--bone)] hover:text-[var(--cinema)] transition-all duration-500 ${
+              aria-label="Kai McAdams — home"
+              className="shrink-0 -ml-5 pointer-events-auto"
+            >
+              <Image
+                src="/gorehound-grindhouse-wordmark.png"
+                alt="Gorehound Grindhouse"
+                width={713}
+                height={104}
+                priority
+                className="h-[34px] md:h-[42px] w-auto"
+                sizes="(min-width: 768px) 288px, 233px"
+                // Art is light grey (avg 213); this forces it to pure white.
+                style={{ filter: "brightness(0) invert(1)" }}
+              />
+            </Link>
+            {/* Centered on the header itself, so the badge and Menu widths
+                don't pull it off-center */}
+            <Link
+              href="/"
+              className={`absolute left-1/2 -translate-x-1/2 text-base md:text-lg font-semibold tracking-tight text-[var(--bone)] hover:text-[var(--cinema)] transition-all duration-500 ${
                 showWordmark
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 -translate-y-2 pointer-events-none"
@@ -52,13 +75,12 @@ export default function Header() {
             <button
               onClick={() => setOpen(true)}
               aria-label="Open menu"
-              className="label hover:text-[var(--cinema)] transition-colors flex items-center gap-2"
+              className="label pointer-events-auto transition-colors hover:opacity-70"
+              // .label is unlayered, so it beats Tailwind's text-* utilities —
+              // size and colour have to be set here to take effect.
+              style={{ fontSize: "36px", color: "#ffffff" }}
             >
-              <span
-                className="inline-block w-5 h-px bg-current relative before:absolute before:inset-x-0 before:-top-1.5 before:h-px before:bg-current after:absolute after:inset-x-0 after:top-1.5 after:h-px after:bg-current"
-                aria-hidden
-              />
-              <span>Menu</span>
+              Menu
             </button>
           </div>
         </div>

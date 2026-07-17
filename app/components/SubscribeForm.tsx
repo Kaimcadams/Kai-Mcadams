@@ -8,7 +8,7 @@ export default function SubscribeForm() {
         delivered after dark.
       </h3>
       <p className="text-[var(--bone-dim)] max-w-md mb-8">
-        Free — no spam, occasional bloodshed. Gorehound Grindhouse arrives in
+        Free. No spam, occasional bloodshed. Gorehound Grindhouse arrives in
         your inbox, on a witching-hour schedule.
       </p>
       <div className="border border-[var(--rule)] bg-[var(--ink)]">

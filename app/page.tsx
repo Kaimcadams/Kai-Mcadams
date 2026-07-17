@@ -4,16 +4,17 @@ import Marquee from "./components/Marquee";
 import FadeIn from "./components/FadeIn";
 import PostCard from "./components/PostCard";
 import FilmCard from "./components/FilmCard";
-import SubscribeForm from "./components/SubscribeForm";
 import { getPosts } from "@/lib/substack";
 
 export const revalidate = 900;
 
+// `thumb` values are placeholders drawn from art already on the site — they are
+// NOT stills from these films. Swap each for a real frame when available.
 const SELECTED_WORK = [
-  { number: 1, title: "Chambiar AI Demo", role: "Director · Editor", date: "March 2025" },
-  { number: 2, title: "Ridiculous Bitch at NUBLU", role: "Director · Editor", date: "February 2025" },
-  { number: 3, title: "Haunted City: Morris-Jumel Mansion", role: "Editor", date: "December 2024" },
-  { number: 4, title: "Halloween Manor", role: "Director · Editor", date: "October 2024" },
+  { number: 1, title: "Chambiar AI Demo", role: "Director · Editor", date: "March 2025", thumb: "/city-night.png" },
+  { number: 2, title: "Ridiculous Bitch at NUBLU", role: "Director · Editor", date: "February 2025", thumb: "/streetlamp.png" },
+  { number: 3, title: "Haunted City: Morris-Jumel Mansion", role: "Editor", date: "December 2024", thumb: "/theater.png" },
+  { number: 4, title: "Halloween Manor", role: "Director · Editor", date: "October 2024", thumb: "/about.jpeg" },
 ];
 
 export default async function Home() {
@@ -41,16 +42,21 @@ export default async function Home() {
       />
 
       {/* INTRO */}
-      <section className="relative px-6 md:px-20 max-w-[1280px] mx-auto pt-8 pb-32 md:pb-44">
+      <section className="relative px-6 md:px-20 max-w-[1280px] mx-auto pt-8 pb-0">
         <FadeIn>
           <p className="text-2xl md:text-4xl font-medium leading-[1.25] tracking-tight text-[var(--bone)] max-w-3xl">
-            A New York–based filmmaker, editor, and critic working across
-            cinema, criticism, and graphic design — with a focus on horror,
-            the macabre, and the queer Latinx imaginary.
+            Kai McAdams is a New York–based film programmer &amp; maker, editor,
+            and critic working across cinema, criticism, and graphic design.
+            Kai&apos;s work lives in horror, the macabre, and queer Latine
+            themes. They&apos;re the founder of Gorehound Grindhouse, a
+            publication for the genre-obsessed.
           </p>
           <Link
             href="/about"
             className="inline-block mt-10 label hover:text-[var(--cinema)] transition-colors"
+            // .label is unlayered CSS, so it wins over Tailwind's text-*
+            // utilities — the 2x size has to be set here to stick.
+            style={{ fontSize: "24px" }}
           >
             Read more →
           </Link>
@@ -58,16 +64,16 @@ export default async function Home() {
       </section>
 
       {/* SELECTED WORK */}
-      <section className="relative px-6 md:px-20 max-w-[1280px] mx-auto py-20 md:py-28">
+      <section className="relative px-6 md:px-20 max-w-[1280px] mx-auto pt-[100px] pb-20 md:pb-28">
         <FadeIn className="flex items-baseline justify-between mb-16 pb-6 border-b border-[var(--rule)]">
           <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
             Selected Film Works
           </h2>
           <Link
-            href="/film"
+            href="/cinematography"
             className="label hover:text-[var(--cinema)] transition-colors"
           >
-            View All Film →
+            View All Work →
           </Link>
         </FadeIn>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-16">
@@ -79,10 +85,10 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* GOREHOUND GRINDHOUSE — FEATURED PUBLICATION */}
+      {/* GOREHOUND GRINDHOUSE - FEATURED PUBLICATION */}
       <section className="relative px-6 md:px-20 max-w-[1280px] mx-auto py-20 md:py-28 mt-12">
         <FadeIn className="mb-12 pb-8 border-b border-[var(--rule)]">
-          <p className="label mb-4">Latest Dispatch — The Publication</p>
+          <p className="label mb-4">Latest Post · The Publication</p>
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
             <div>
               <h2
@@ -105,7 +111,7 @@ export default async function Home() {
                 Subscribe
               </a>
               <Link
-                href="/cinematic-analysis"
+                href="/cinema-journalism"
                 className="label hover:text-[var(--cinema)] transition-colors whitespace-nowrap"
               >
                 Read All →
@@ -124,7 +130,7 @@ export default async function Home() {
             <div className="md:col-span-4 flex flex-col">
               {rest.map((post, i) => (
                 <FadeIn key={post.link} delay={(i + 1) * 0.08}>
-                  <PostCard post={post} />
+                  <PostCard post={post} variant="compact" />
                 </FadeIn>
               ))}
               {rest.length === 0 && (
@@ -139,13 +145,6 @@ export default async function Home() {
             The feed is dim. Check back after dark.
           </p>
         )}
-      </section>
-
-      {/* SUBSCRIBE */}
-      <section className="relative px-6 md:px-20 max-w-[1280px] mx-auto py-24 md:py-32">
-        <FadeIn>
-          <SubscribeForm />
-        </FadeIn>
       </section>
 
     </>

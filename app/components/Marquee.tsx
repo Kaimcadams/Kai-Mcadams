@@ -5,7 +5,14 @@ type Props = {
   className?: string;
 };
 
-const DEFAULT_ITEMS = ["Filmmaker", "Editor", "Critic", "New York"];
+// Mirrors the hero subline.
+const DEFAULT_ITEMS = [
+  "New York City",
+  "Cabo San Lucas",
+  "Filmmaker & Programmer",
+  "Journalist",
+  "Artist",
+];
 
 export default function Marquee({
   items = DEFAULT_ITEMS,
@@ -39,7 +46,15 @@ export default function Marquee({
                 <span
                   className={`mx-6 ${tone === "cinema" ? "text-[var(--bone)]" : "text-[var(--cinema)]"}`}
                 >
-                  ·
+                  {/* Star separator, matching the ✦ in the hero subline */}
+                  <svg
+                    viewBox="0 0 24 24"
+                    className="h-[9px] w-[9px]"
+                    fill="currentColor"
+                    aria-hidden
+                  >
+                    <path d="M12 0 L14.2 9.8 L24 12 L14.2 14.2 L12 24 L9.8 14.2 L0 12 L9.8 9.8 Z" />
+                  </svg>
                 </span>
               </span>
             ))}

@@ -6,15 +6,15 @@ import { useEffect } from "react";
 
 const NAV = [
   { href: "/", label: "Home" },
-  { href: "/reel", label: "Reel" },
-  { href: "/film", label: "Film" },
+  { href: "/cinematography", label: "Cinematography" },
   { href: "/graphic-design", label: "Graphic Design" },
-  { href: "/cinematic-analysis", label: "Cinematic Analysis" },
-  { href: "/cv", label: "CV" },
+  { href: "/calligraphy", label: "Calligraphy" },
+  { href: "/cinema-journalism", label: "Cinema Journalism" },
   { href: "/about", label: "About" },
 ];
 
-const SOCIALS = [
+const MORE = [
+  { href: "/cv", label: "CV" },
   { href: "https://kaimcadams.substack.com", label: "Substack" },
   { href: "https://www.instagram.com/kaimcadams", label: "Instagram" },
   { href: "https://www.linkedin.com/in/kaimcadams", label: "LinkedIn" },
@@ -64,7 +64,7 @@ export default function DrawerMenu({ open, onClose }: Props) {
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
             transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
-            className="fixed top-0 right-0 bottom-0 z-[90] w-full sm:w-[440px] bg-[var(--ink-2)] border-l border-[var(--rule)] flex flex-col"
+            className="fixed top-0 right-0 bottom-0 z-[90] w-full sm:w-[440px] bg-black border-l border-[var(--rule)] flex flex-col"
             role="dialog"
             aria-label="Site menu"
           >
@@ -96,20 +96,32 @@ export default function DrawerMenu({ open, onClose }: Props) {
               </ul>
 
               <div className="mt-auto pt-12">
-                <p className="label mb-4">Connect</p>
+                <p className="label mb-4">More</p>
                 <ul className="space-y-3">
-                  {SOCIALS.map((s) => (
-                    <li key={s.href}>
-                      <a
-                        href={s.href}
-                        target={s.href.startsWith("http") ? "_blank" : undefined}
-                        rel={s.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                        className="label-sm hover:text-[var(--cinema)] transition-colors block"
-                      >
-                        → {s.label}
-                      </a>
-                    </li>
-                  ))}
+                  {MORE.map((s) =>
+                    s.href.startsWith("/") ? (
+                      <li key={s.href}>
+                        <Link
+                          href={s.href}
+                          onClick={onClose}
+                          className="label-sm hover:text-[var(--cinema)] transition-colors block"
+                        >
+                          → {s.label}
+                        </Link>
+                      </li>
+                    ) : (
+                      <li key={s.href}>
+                        <a
+                          href={s.href}
+                          target={s.href.startsWith("http") ? "_blank" : undefined}
+                          rel={s.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                          className="label-sm hover:text-[var(--cinema)] transition-colors block"
+                        >
+                          → {s.label}
+                        </a>
+                      </li>
+                    ),
+                  )}
                 </ul>
                 <a
                   href="https://kaimcadams.substack.com/subscribe"

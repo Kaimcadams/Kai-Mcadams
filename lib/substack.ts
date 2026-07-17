@@ -1,5 +1,4 @@
 import Parser from "rss-parser";
-import { unstable_cache } from "next/cache";
 
 const FEED_URL = "https://kaimcadams.substack.com/feed";
 
@@ -85,10 +84,77 @@ async function fetchAndParse(): Promise<Post[]> {
   }
 }
 
-export const getPosts = unstable_cache(fetchAndParse, ["substack-feed"], {
-  revalidate: 900,
-  tags: ["substack-feed"],
-});
+// limit is capped — 100 gets a 400 back, 50 is accepted.
+const ARCHIVE_URL =
+  "https://kaimcadams.substack.com/api/v1/archive?sort=new&offset=0&limit=50";
+
+type ArchiveItem = {
+  title?: string;
+  slug?: string;
+  post_date?: string;
+  canonical_url?: string;
+  cover_image?: string | null;
+  description?: string | null;
+  subtitle?: string | null;
+  truncated_body_text?: string | null;
+};
+
+// The RSS feed is capped at the 20 most recent posts, so the back catalogue is
+// invisible to it. The archive endpoint lists everything — but its body_html is
+// always null, so it can only supply metadata.
+async function fetchArchive(): Promise<Post[]> {
+  try {
+    const res = await fetch(ARCHIVE_URL, {
+      cache: "no-store",
+      headers: { "user-agent": "kai-mcadams-site/1.0" },
+    });
+    if (!res.ok) {
+      console.error("[substack] archive fetch failed", res.status, ARCHIVE_URL);
+      return [];
+    }
+    const items = (await res.json()) as ArchiveItem[];
+    if (!Array.isArray(items)) return [];
+    return items
+      .filter((i) => i.slug && i.title)
+      .map((i) => ({
+        title: i.title ?? "Untitled",
+        link: i.canonical_url ?? "#",
+        slug: i.slug as string,
+        content: "",
+        isoDate: i.post_date ?? null,
+        pubDate: i.post_date ?? null,
+        contentSnippet: (
+          i.description ||
+          i.subtitle ||
+          i.truncated_body_text ||
+          ""
+        ).trim(),
+        thumbnail: i.cover_image ?? null,
+        creator: null,
+      }));
+  } catch (err) {
+    console.error("[substack] archive fetch failed", err);
+    return [];
+  }
+}
+
+// Fetch fresh on each render; the pages that use this set `revalidate = 900`,
+// so Next caches the rendered page (not the oversized feed payload) for 15 min.
+//
+// RSS wins on overlap because it carries full post bodies; the archive fills in
+// the older posts RSS drops. Those extras have no body, so their detail page
+// falls back to the snippet plus a link out (see the [slug] route).
+export async function getPosts(): Promise<Post[]> {
+  const [rss, archive] = await Promise.all([fetchAndParse(), fetchArchive()]);
+  const bySlug = new Map<string, Post>();
+  for (const p of archive) bySlug.set(p.slug, p);
+  for (const p of rss) bySlug.set(p.slug, p);
+  return [...bySlug.values()].sort((a, b) => {
+    const ta = a.isoDate ? Date.parse(a.isoDate) : 0;
+    const tb = b.isoDate ? Date.parse(b.isoDate) : 0;
+    return tb - ta;
+  });
+}
 
 export async function getPostBySlug(slug: string): Promise<Post | null> {
   const posts = await getPosts();

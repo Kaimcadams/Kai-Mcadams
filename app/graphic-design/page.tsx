@@ -19,7 +19,7 @@ const PROJECTS = [
 ];
 
 export const metadata = {
-  title: "Graphic Design — Kai McAdams",
+  title: "Graphic Design · Kai McAdams",
   description:
     "Identity, merchandise, and print work for venues, artists, and brands.",
 };

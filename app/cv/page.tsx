@@ -1,9 +1,9 @@
 import FadeIn from "../components/FadeIn";
 
 export const metadata = {
-  title: "CV — Kai McAdams",
+  title: "CV · Kai McAdams",
   description:
-    "Curriculum vitae of Kai McAdams — filmmaker, editor, and critic. Productions, editorial credits, graphic design, screenings, and education.",
+    "Curriculum vitae of Kai McAdams, filmmaker, editor, and critic. Productions, editorial credits, graphic design, screenings, and education.",
 };
 
 type Credit = {
@@ -18,19 +18,19 @@ const EXPERIENCE: Credit[] = [
     title: "Production Creative Director",
     role: "Direction · Editing · Brand Storytelling",
     org: "Chambiar AI",
-    date: "Mar 2025 — Present",
+    date: "Mar 2025 to Present",
   },
   {
     title: "Digital Media Supervisor · Co-Founder",
     role: "Creative Direction · Identity · Marketing",
     org: "Dead Billiards",
-    date: "Jan 2025 — Present",
+    date: "Jan 2025 to Present",
   },
   {
     title: "Associate Supervisor",
     role: "Operations · Guest Experience",
     org: "AMC Theatres",
-    date: "Jun 2022 — Apr 2023",
+    date: "Jun 2022 to Apr 2023",
   },
 ];
 
@@ -43,7 +43,7 @@ const DIRECTION: Credit[] = [
   { title: "The Night of the Reaper", role: "Director · Writer · Editor", date: "October 2022" },
 ];
 
-// Productions Kai has crewed / assisted on. Add credits here as they come in —
+// Productions Kai has crewed / assisted on. Add credits here as they come in.
 // format: { title, role, org (optional), date }.
 const ASSISTED: Credit[] = [
   // e.g. { title: "Feature Title", role: "Assistant Editor", org: "Studio / Prod. Co.", date: "2024" },
@@ -56,12 +56,13 @@ const DESIGN: Credit[] = [
 ];
 
 const SCREENINGS: Credit[] = [
-  { title: "Final Destination Bloodlines", role: "Fangoria — Invitee", date: "April 2025" },
-  { title: "Hell of a Summer", role: "Letterboxd × NEON — Invitee", date: "April 2025" },
-  { title: "Locked", role: "Letterboxd — Invitee", date: "March 2025" },
-  { title: "NDA", role: "Screening Squad — Invitee", date: "November 2024" },
-  { title: "Longlegs", role: "Letterboxd × NEON — Invitee", date: "July 2024" },
-  { title: "The Strangers: Chapter 1", role: "Bloody Disgusting — Invitee", date: "May 2024" },
+  { title: "Evil Dead Burn", role: "Invitee", date: "2026" },
+  { title: "Final Destination Bloodlines", role: "Fangoria · Invitee", date: "April 2025" },
+  { title: "Hell of a Summer", role: "Letterboxd × NEON · Invitee", date: "April 2025" },
+  { title: "Locked", role: "Letterboxd · Invitee", date: "March 2025" },
+  { title: "NDA", role: "Screening Squad · Invitee", date: "November 2024" },
+  { title: "Longlegs", role: "Letterboxd × NEON · Invitee", date: "July 2024" },
+  { title: "The Strangers: Chapter 1", role: "Bloody Disgusting · Invitee", date: "May 2024" },
 ];
 
 function CreditList({ items }: { items: Credit[] }) {
@@ -118,7 +119,7 @@ export default function CVPage() {
           </h1>
           <p className="text-xl md:text-2xl text-[var(--bone-dim)] leading-snug max-w-2xl">
             Filmmaker, editor, and critic based in New York. Direction and
-            editorial across narrative, music, and brand — centered on horror,
+            editorial across narrative, music, and brand, centered on horror,
             the macabre, and the queer Latinx imaginary.
           </p>
           <div className="mt-8 flex flex-wrap gap-x-8 gap-y-2">
@@ -172,7 +173,7 @@ export default function CVPage() {
             Gorehound Grindhouse
           </h3>
           <p className="mt-2 text-[var(--bone-dim)] leading-relaxed">
-            Writer &amp; editor — a midnight digest of media and the macabre.
+            Writer &amp; editor, a midnight digest of media and the macabre.
             Film essays, reviews, and themed studies on the zombie, folk horror,
             and the genre&apos;s quieter terrains.
           </p>
@@ -215,7 +216,7 @@ export default function CVPage() {
           </p>
           <p className="text-[var(--bone-dim)]">
             <span className="label block mb-1">Languages</span>
-            English · Spanish — Bilingual
+            English · Spanish, Bilingual
           </p>
         </div>
       </Section>

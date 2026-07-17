@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const post = await getPostBySlug(slug);
   return {
-    title: post?.title ? `${post.title} — Gorehound Grindhouse` : 'Post',
+    title: post?.title ? `${post.title} · Gorehound Grindhouse` : 'Post',
     description: post?.contentSnippet,
   };
 }
@@ -32,7 +32,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   return (
     <article className="max-w-3xl mx-auto px-6 md:px-10 py-16 md:py-24">
       <Link
-        href="/cinematic-analysis"
+        href="/cinema-journalism"
         className="inline-block mb-10 text-xs uppercase tracking-[0.2em] opacity-70 hover:opacity-100 transition"
       >
         ← Back to Gorehound Grindhouse

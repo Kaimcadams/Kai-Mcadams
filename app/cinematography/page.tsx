@@ -1,11 +1,5 @@
-import Link from "next/link";
 import FadeIn from "../components/FadeIn";
-
-export const metadata = {
-  title: "Reel — Kai McAdams",
-  description:
-    "Directing and editing reel — selected film, music, and brand work by Kai McAdams.",
-};
+import FilmCard from "../components/FilmCard";
 
 /**
  * Kai's reel embed.
@@ -28,36 +22,50 @@ function embedSrc(): string | null {
   return `https://www.youtube.com/embed/${REEL.id}?rel=0&modestbranding=1`;
 }
 
-export default function ReelPage() {
+const FILMS = [
+  { number: 1, title: "Chambiar AI Demo", role: "Director · Editor", date: "March 2025" },
+  { number: 2, title: "Ridiculous Bitch at NUBLU", role: "Director · Editor", date: "February 2025" },
+  { number: 3, title: "Haunted City: Morris-Jumel Mansion", role: "Editor", date: "December 2024" },
+  { number: 4, title: "Halloween Manor", role: "Director · Editor", date: "October 2024" },
+  { number: 5, title: "Ring Me at Seven", role: "Director · Editor", date: "April 2023" },
+  { number: 6, title: "The Night of the Reaper", role: "Director · Writer · Editor", date: "October 2022" },
+];
+
+export const metadata = {
+  title: "Cinematography · Kai McAdams",
+  description:
+    "Direction and editorial work in narrative, music, and brand. Reel and selected films by Kai McAdams.",
+};
+
+export default function CinematographyPage() {
   const src = embedSrc();
 
   return (
     <>
-      {/* HEADER */}
       <section className="relative px-6 md:px-20 max-w-[1280px] mx-auto pt-44 md:pt-56 pb-12">
         <FadeIn className="max-w-3xl">
           <p className="label mb-6">Directing · Editing</p>
           <h1
-            className="font-bold tracking-tight leading-[1.0] mb-8"
+            className="font-bold tracking-tight leading-[1.0] mb-10"
             style={{ fontSize: "clamp(3rem, 9vw, 8rem)" }}
           >
-            Reel
+            Cinematography
           </h1>
           <p className="text-xl md:text-2xl text-[var(--bone-dim)] leading-snug max-w-2xl">
-            A cut through the work — narrative, music, and brand. Direction and
-            editorial, drawn toward horror and the macabre.
+            Direction and editorial work in narrative, music, and brand. Drawn
+            toward horror and the macabre.
           </p>
         </FadeIn>
       </section>
 
-      {/* REEL */}
-      <section className="relative px-6 md:px-20 max-w-[1280px] mx-auto pb-16">
+      {/* REEL — leads the page */}
+      <section className="relative px-6 md:px-20 max-w-[1280px] mx-auto pb-24">
         <FadeIn>
           <div className="relative aspect-video w-full bg-black border border-[var(--rule)] overflow-hidden">
             {src ? (
               <iframe
                 src={src}
-                title="Kai McAdams — Reel"
+                title="Kai McAdams · Reel"
                 className="absolute inset-0 w-full h-full"
                 allow="autoplay; fullscreen; picture-in-picture"
                 allowFullScreen
@@ -76,29 +84,21 @@ export default function ReelPage() {
         </FadeIn>
       </section>
 
-      {/* FOOTER LINKS */}
       <section className="relative px-6 md:px-20 max-w-[1280px] mx-auto pb-32">
-        <FadeIn className="flex flex-wrap gap-x-10 gap-y-3 pt-8 border-t border-[var(--rule)]">
-          <Link
-            href="/film"
-            className="label hover:text-[var(--cinema)] transition-colors"
-          >
-            View All Film →
-          </Link>
-          <Link
-            href="/cv"
-            className="label hover:text-[var(--cinema)] transition-colors"
-          >
-            Full CV →
-          </Link>
-          <a
-            href="mailto:McAdamsxK@gmail.com"
-            className="label hover:text-[var(--cinema)] transition-colors"
-          >
-            Booking & Enquiries →
-          </a>
+        <FadeIn className="mb-16 pb-6 border-b border-[var(--rule)]">
+          <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
+            Selected Works
+          </h2>
         </FadeIn>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-20">
+          {FILMS.map((film, i) => (
+            <FadeIn key={film.title} delay={i * 0.06}>
+              <FilmCard film={film} />
+            </FadeIn>
+          ))}
+        </div>
       </section>
+
     </>
   );
 }

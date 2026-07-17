@@ -26,6 +26,7 @@
   --color-cinema-deep: var(--cinema-deep);
   --color-gold: var(--gold);
   --font-sans: var(--font-sans);
+  --font-script: var(--font-script);
 }
 
 html {
@@ -36,9 +37,9 @@ html {
 body {
   background: var(--ink);
   color: var(--bone);
-  font-family: var(--font-sans), system-ui, sans-serif;
-  font-size: 17px;
-  line-height: 1.6;
+  font-family: var(--font-body), var(--font-sans), Georgia, serif;
+  font-size: 18px;
+  line-height: 1.65;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -118,7 +119,7 @@ html.lenis body {
   animation-duration: 120s;
 }
 
-/* Streetlamp flicker — irregular keyframe spacing for "dying bulb" rhythm */
+/* Streetlamp flicker: irregular keyframe spacing for "dying bulb" rhythm */
 @keyframes lampFlicker {
   0%, 18%, 22%, 23.5%, 24%, 38%, 50%, 51%, 64%, 75%, 76%, 100% {
     opacity: 1;
@@ -135,27 +136,96 @@ html.lenis body {
   animation: lampFlicker 7s infinite;
 }
 
+/* City hero: a row of office windows going dark, then coming back. The overlay
+   sits over the lit windows, so opacity 1 = lights off. Long holds either side
+   keep the cadence slow. Duration/delay are set per row inline. */
+@keyframes windowsOut {
+  0%,
+  36% {
+    opacity: 0;
+  }
+  46%,
+  76% {
+    opacity: 1;
+  }
+  86%,
+  100% {
+    opacity: 0;
+  }
+}
+.windows-blink {
+  animation: windowsOut var(--blink-dur, 18s) ease-in-out var(--blink-delay, 0s)
+    infinite;
+  will-change: opacity;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .windows-blink {
+    animation: none;
+    opacity: 0;
+  }
+}
+
+/* Letterboxd poster bounce: lift-and-settle on hover */
+@keyframes posterBounce {
+  0%   { transform: translateY(0) scale(1); }
+  35%  { transform: translateY(-16px) scale(1.045); }
+  60%  { transform: translateY(-3px) scale(1.02); }
+  80%  { transform: translateY(-11px) scale(1.035); }
+  100% { transform: translateY(-8px) scale(1.03); }
+}
+.poster-card {
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.3s ease;
+  will-change: transform;
+}
+@media (hover: hover) {
+  .poster-card:hover {
+    animation: posterBounce 0.6s cubic-bezier(0.28, 0.84, 0.42, 1) forwards;
+    box-shadow: 0 22px 40px -18px rgba(0, 0, 0, 0.85);
+    z-index: 2;
+  }
+}
+
+/* Subheadings — legible modern blackletter (h2–h4). */
 h1, h2, h3, h4 {
-  font-family: var(--font-sans), system-ui, sans-serif;
-  letter-spacing: -0.02em;
-  line-height: 1.05;
+  font-family: var(--font-sub), var(--font-sans), serif;
+  line-height: 1.12;
+}
+/* Headings — condensed blackletter display (page titles). */
+h1 {
+  font-family: var(--font-display), var(--font-sub), serif;
+  line-height: 1.08;
+}
+/* Blackletter must never be tracked tight; [class] beats Tailwind's
+   tracking-* utilities so headings keep their natural spacing. */
+h1[class], h2[class], h3[class], h4[class] {
+  letter-spacing: normal;
 }
 
 .label {
-  font-family: var(--font-sans), system-ui, sans-serif;
-  font-weight: 500;
+  font-family: var(--font-body), var(--font-sans), serif;
+  font-weight: 400;
   text-transform: uppercase;
-  font-size: 11px;
-  letter-spacing: 0.15em;
+  font-size: 12px;
+  letter-spacing: 0.18em;
   color: var(--bone-dim);
 }
 
+/* Signature — flourished copperplate script, off-white like body text. */
+.signature {
+  font-family: var(--font-script), cursive;
+  font-weight: 400;
+  color: var(--bone);
+  line-height: 0.9;
+}
+
 .label-sm {
-  font-family: var(--font-sans), system-ui, sans-serif;
-  font-weight: 500;
+  font-family: var(--font-body), var(--font-sans), serif;
+  font-weight: 400;
   text-transform: uppercase;
-  font-size: 10px;
-  letter-spacing: 0.18em;
+  font-size: 11px;
+  letter-spacing: 0.2em;
   color: var(--muted);
 }
 

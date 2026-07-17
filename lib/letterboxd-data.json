@@ -1,0 +1,4324 @@
+{
+  "profileUrl": "https://letterboxd.com/vampiriczombie/",
+  "favorites": [
+    {
+      "slug": "bound",
+      "title": "Bound",
+      "year": "1996",
+      "tmdbId": "9303",
+      "poster": "https://image.tmdb.org/t/p/w780/9qAy6UWVw44dGrsyKrdEMt5qIUM.jpg",
+      "cert": null,
+      "posterSource": "tmdb"
+    },
+    {
+      "slug": "scream",
+      "title": "Scream",
+      "year": "1996",
+      "tmdbId": "4232",
+      "poster": "https://image.tmdb.org/t/p/w780/lr9ZIrmuwVmZhpZuTCW8D9g0ZJe.jpg",
+      "cert": null,
+      "posterSource": "tmdb"
+    },
+    {
+      "slug": "love-lies-bleeding-2024",
+      "title": "Love Lies Bleeding",
+      "year": "2024",
+      "tmdbId": "948549",
+      "poster": "https://image.tmdb.org/t/p/w780/xImj8RLe39YK0lyVu9kXv7ApN8p.jpg",
+      "cert": null,
+      "posterSource": "tmdb"
+    },
+    {
+      "slug": "showgirls",
+      "title": "Showgirls",
+      "year": "1995",
+      "tmdbId": "10802",
+      "poster": "https://image.tmdb.org/t/p/w780/o4HT3Ap5c99W4FYpdXUtTvxGgPc.jpg",
+      "cert": null,
+      "posterSource": "tmdb"
+    }
+  ],
+  "lists": [
+    {
+      "slug": "summerween-scorchfest-homicide-and-high-tide",
+      "title": "Summerween ScorchFest: Homicide and High Tide",
+      "description": "I completed my first ever Hooptober last year along with my own personal challenge that highlights winter holiday horror called FrostFest and I was inspired to create another horror challenge for SUMMERWEEN! I will be updating my progress on my socials and substack! full article about my decisions with these entries up now on substack! Just like Hooptober and FrostFest, I challenge anyone who wants to join in with me and create their own list. I’ll create some easy rules and make sure to tag ‘scorchfest1’ so everyone can find lists and support each other (feel free to comment your lists below as well!) 🪓 See notes and tags…",
+      "count": 39,
+      "films": [
+        {
+          "slug": "friday-the-13th-2009",
+          "title": "Friday the 13th",
+          "year": "2009",
+          "tmdbId": "13207",
+          "poster": "https://image.tmdb.org/t/p/w780/88wlJ4teYlck4hJ2bnlxBrAVh0m.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "jason-lives-friday-the-13th-part-vi",
+          "title": "Jason Lives - Friday the 13th Part VI",
+          "year": "1986",
+          "tmdbId": "10225",
+          "poster": "https://image.tmdb.org/t/p/w780/6vdUpHvkspQonXBdWcLWW5ciEPJ.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "urban-legend",
+          "title": "Urban Legend",
+          "year": "1998",
+          "tmdbId": "9877",
+          "poster": "https://image.tmdb.org/t/p/w780/dUvZDNU9G0njhM628NA5phASntq.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "fear-street-1978",
+          "title": "Fear Street: 1978",
+          "year": "2021",
+          "tmdbId": "591274",
+          "poster": "https://image.tmdb.org/t/p/w780/5dNTxhoGDTHHGqUTdxcr4H1dqlU.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "friday-the-13th",
+          "title": "Friday the 13th",
+          "year": "1980",
+          "tmdbId": "4488",
+          "poster": "https://image.tmdb.org/t/p/w780/uGGpnWHOmWTARVN9wbC1nPxNgps.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "sleepaway-camp",
+          "title": "Sleepaway Camp",
+          "year": "1983",
+          "tmdbId": "13567",
+          "poster": "https://image.tmdb.org/t/p/w780/lZ7KjSyHjP4ula5ybiXuQcDvZLg.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "i-still-know-what-you-did-last-summer",
+          "title": "I Still Know What You Did Last Summer",
+          "year": "1998",
+          "tmdbId": "3600",
+          "poster": "https://image.tmdb.org/t/p/w780/eg3d6hvTaOmW3lNErFfutBmWmAR.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "fear-street-1994",
+          "title": "Fear Street: 1994",
+          "year": "2021",
+          "tmdbId": "591273",
+          "poster": "https://image.tmdb.org/t/p/w780/9J9Wy39ZjrVmfk7yMkulpcI5sy0.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "hell-fest",
+          "title": "Hell Fest",
+          "year": "2018",
+          "tmdbId": "429476",
+          "poster": "https://image.tmdb.org/t/p/w780/qgLlnlrUtTKXkdrgMBwUfkyAkya.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "final-destination-3",
+          "title": "Final Destination 3",
+          "year": "2006",
+          "tmdbId": "9286",
+          "poster": "https://image.tmdb.org/t/p/w780/p7ARuNKUGPGvkBiDtIDvAzYzonX.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "wolf-creek",
+          "title": "Wolf Creek",
+          "year": "2005",
+          "tmdbId": "9885",
+          "poster": "https://image.tmdb.org/t/p/w780/545PYpfCeDwVgdgydHCQqXFr168.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-hills-have-eyes-2006",
+          "title": "The Hills Have Eyes",
+          "year": "2006",
+          "tmdbId": "9792",
+          "poster": "https://image.tmdb.org/t/p/w780/w391167zrbCOljQfJk5vlOmcDjU.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "ticks",
+          "title": "Ticks",
+          "year": "1993",
+          "tmdbId": "34098",
+          "poster": "https://image.tmdb.org/t/p/w780/3tfMPBgpfwu2V403u9gST5ReWl9.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "crawl-2019",
+          "title": "Crawl",
+          "year": "2019",
+          "tmdbId": "511987",
+          "poster": "https://image.tmdb.org/t/p/w780/4WH6AZd473lRZ3hUp8TYiv2LfZW.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-laughing-dead",
+          "title": "The Laughing Dead",
+          "year": "1989",
+          "tmdbId": "193611",
+          "poster": "https://image.tmdb.org/t/p/w780/egZzoCLGPpiv7MUa4EmRBbMIMQk.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "club-dread",
+          "title": "Club Dread",
+          "year": "2004",
+          "tmdbId": "11217",
+          "poster": "https://image.tmdb.org/t/p/w780/9slWyVotwxZNthMcKoeFaK3tgNz.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "47-meters-down-uncaged",
+          "title": "47 Meters Down: Uncaged",
+          "year": "2019",
+          "tmdbId": "480105",
+          "poster": "https://image.tmdb.org/t/p/w780/g4z7mDmJmx23vsVg6XNWcnXb6gc.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "piranha-3d",
+          "title": "Piranha 3D",
+          "year": "2010",
+          "tmdbId": "43593",
+          "poster": "https://image.tmdb.org/t/p/w780/lMLS2OFBbNYMSB1ZbVp4q2S4zTU.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "piranha",
+          "title": "Piranha",
+          "year": "1978",
+          "tmdbId": "24831",
+          "poster": "https://image.tmdb.org/t/p/w780/oaz0Le3fT3R8jzlkXkNV7JAsd7x.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "sleepaway-camp-ii-unhappy-campers",
+          "title": "Sleepaway Camp II: Unhappy Campers",
+          "year": "1988",
+          "tmdbId": "34311",
+          "poster": "https://image.tmdb.org/t/p/w780/gupBz1S1TCxH75qW4qoqjpeEgQ9.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "creature-from-the-black-lagoon",
+          "title": "Creature from the Black Lagoon",
+          "year": "1954",
+          "tmdbId": "10973",
+          "poster": "https://image.tmdb.org/t/p/w780/euCzA2Exc70MpTDCVYih8tdE7z1.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "nope",
+          "title": "Nope",
+          "year": "2022",
+          "tmdbId": "762504",
+          "poster": "https://image.tmdb.org/t/p/w780/AcKVlWaNVVVFQwro3nLXqPljcYA.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "zombie-flesh-eaters",
+          "title": "Zombie Flesh Eaters",
+          "year": "1979",
+          "tmdbId": "7219",
+          "poster": "https://image.tmdb.org/t/p/w780/jc17a3PqDnQeBzT7GbK0dp8TDvx.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-strangers-prey-at-night",
+          "title": "The Strangers: Prey at Night",
+          "year": "2018",
+          "tmdbId": "371608",
+          "poster": "https://image.tmdb.org/t/p/w780/vdxLpPsZkPZdFrREp7eSeSzcimj.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "vacancy-2007",
+          "title": "Vacancy",
+          "year": "2007",
+          "tmdbId": "10294",
+          "poster": "https://image.tmdb.org/t/p/w780/9nlJVsbebi1onTwGyJ3UHDNttID.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "scooby-doo",
+          "title": "Scooby-Doo",
+          "year": "2002",
+          "tmdbId": "9637",
+          "poster": "https://image.tmdb.org/t/p/w780/mTAiBJGg8mqEfnYHHbi37ZoRSZm.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "scooby-doo-camp-scare",
+          "title": "Scooby-Doo! Camp Scare",
+          "year": "2010",
+          "tmdbId": "45752",
+          "poster": "https://image.tmdb.org/t/p/w780/zurVOCpOLwLTBknYlgcXHWE0xvu.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-blackening",
+          "title": "The Blackening",
+          "year": "2022",
+          "tmdbId": "1008392",
+          "poster": "https://image.tmdb.org/t/p/w780/n2aS9FE0C3VUHtSb3Ak41aU9K3y.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "re-elected",
+          "title": "Re-Elected",
+          "year": "2020",
+          "tmdbId": "583984",
+          "poster": "https://image.tmdb.org/t/p/w780/iZqYQwRve5DSPopmZWdyvY9DVMx.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "uncle-sam",
+          "title": "Uncle Sam",
+          "year": "1996",
+          "tmdbId": "9680",
+          "poster": "https://image.tmdb.org/t/p/w780/fp1agcfQwsOepWIVNgS09MyPLXz.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-purge-election-year",
+          "title": "The Purge: Election Year",
+          "year": "2016",
+          "tmdbId": "316727",
+          "poster": "https://image.tmdb.org/t/p/w780/gg7tlp45xqGWMra0sqQVPvybje2.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "blow-out",
+          "title": "Blow Out",
+          "year": "1981",
+          "tmdbId": "11644",
+          "poster": "https://image.tmdb.org/t/p/w780/uFzMscVLDrTaYd6KXOXlr6dly7w.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "sleepaway-camp-iii-teenage-wasteland",
+          "title": "Sleepaway Camp III: Teenage Wasteland",
+          "year": "1989",
+          "tmdbId": "34312",
+          "poster": "https://image.tmdb.org/t/p/w780/2YQFABNldAEdMVZOjfKUp4Ig4yp.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "scary-movie-2000",
+          "title": "Scary Movie",
+          "year": "2000",
+          "tmdbId": "4247",
+          "poster": "https://image.tmdb.org/t/p/w780/fVQFPRuw3yWXojYDJvA5EoFjUOY.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "backrooms-2026",
+          "title": "Backrooms",
+          "year": "2026",
+          "tmdbId": "1083381",
+          "poster": "https://image.tmdb.org/t/p/w780/rhGx6E3qRNMgj3i5su2oukNHwIQ.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "scary-movie-2026",
+          "title": "Scary Movie",
+          "year": "2026",
+          "tmdbId": "1273221",
+          "poster": "https://image.tmdb.org/t/p/w780/1KlYdWoOrbL5ux357rW9LC155qw.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "evil-dead-burn",
+          "title": "Evil Dead Burn",
+          "year": "2026",
+          "tmdbId": "1212763",
+          "poster": "https://image.tmdb.org/t/p/w780/ztadKzIIR0ERYqpHteaPFtk7inP.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "ice-cream-man-2026",
+          "title": "Ice Cream Man",
+          "year": "2026",
+          "tmdbId": "1477712",
+          "poster": "https://image.tmdb.org/t/p/w780/c987gxFjXqYOxZEZKcTkS1ONTWH.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "teenage-sex-and-death-at-camp-miasma",
+          "title": "Teenage Sex and Death at Camp Miasma",
+          "year": "2026",
+          "tmdbId": "1240889",
+          "poster": "https://image.tmdb.org/t/p/w780/nLsFnXifieSTqSeWxjXSS8RvaUZ.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        }
+      ]
+    },
+    {
+      "slug": "2026-ranked",
+      "title": "2026 Ranked",
+      "description": "best to worst  based off of the United States wide-release date",
+      "count": 52,
+      "films": [
+        {
+          "slug": "leviticus-2026",
+          "title": "Leviticus",
+          "year": "2026",
+          "tmdbId": "1564614",
+          "poster": "https://image.tmdb.org/t/p/w780/cu0XnXLzJGPeI0msCoJKgnEecKz.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "obsession-2025",
+          "title": "Obsession",
+          "year": "2025",
+          "tmdbId": "1339713",
+          "poster": "https://image.tmdb.org/t/p/w780/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "i-love-boosters",
+          "title": "I Love Boosters",
+          "year": "2026",
+          "tmdbId": "1227877",
+          "poster": "https://image.tmdb.org/t/p/w780/4pNKIUFy7tkZiBx0rnSmG9ysRy.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "backrooms-2026",
+          "title": "Backrooms",
+          "year": "2026",
+          "tmdbId": "1083381",
+          "poster": "https://image.tmdb.org/t/p/w780/rhGx6E3qRNMgj3i5su2oukNHwIQ.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-drama",
+          "title": "The Drama",
+          "year": "2026",
+          "tmdbId": "1325734",
+          "poster": "https://image.tmdb.org/t/p/w780/qhGCY6DIemLoCi7x1GuEt98m4JF.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "hokum",
+          "title": "Hokum",
+          "year": "2026",
+          "tmdbId": "1430077",
+          "poster": "https://image.tmdb.org/t/p/w780/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "they-will-kill-you",
+          "title": "They Will Kill You",
+          "year": "2026",
+          "tmdbId": "1292695",
+          "poster": "https://image.tmdb.org/t/p/w780/6oI4oQKTWMVUlr8Ivqydp28Ruu6.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "mile-end-kicks",
+          "title": "Mile End Kicks",
+          "year": "2025",
+          "tmdbId": "1177767",
+          "poster": "https://image.tmdb.org/t/p/w780/qq3Q1tsxAxMqP38YTZKl8m5zmA4.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "send-help",
+          "title": "Send Help",
+          "year": "2026",
+          "tmdbId": "1198994",
+          "poster": "https://image.tmdb.org/t/p/w780/zbJWVHOtj3ljBzWgL1P8pxP03Up.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "michael-2026",
+          "title": "Michael",
+          "year": "2026",
+          "tmdbId": "936075",
+          "poster": "https://image.tmdb.org/t/p/w780/zm0KAbOjlt9eR5y7vDiL2dEOwMl.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "project-hail-mary",
+          "title": "Project Hail Mary",
+          "year": "2026",
+          "tmdbId": "687163",
+          "poster": "https://image.tmdb.org/t/p/w780/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "evil-dead-burn",
+          "title": "Evil Dead Burn",
+          "year": "2026",
+          "tmdbId": "1212763",
+          "poster": "https://image.tmdb.org/t/p/w780/ztadKzIIR0ERYqpHteaPFtk7inP.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "scary-movie-2026",
+          "title": "Scary Movie",
+          "year": "2026",
+          "tmdbId": "1273221",
+          "poster": "https://image.tmdb.org/t/p/w780/1KlYdWoOrbL5ux357rW9LC155qw.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "ready-or-not-2-here-i-come",
+          "title": "Ready or Not 2: Here I Come",
+          "year": "2026",
+          "tmdbId": "1266127",
+          "poster": "https://image.tmdb.org/t/p/w780/jRf89HVEtBZiSnOXXWDhZOfuTwW.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-bride-2026",
+          "title": "The Bride!",
+          "year": "2026",
+          "tmdbId": "1159831",
+          "poster": "https://image.tmdb.org/t/p/w780/lV8YHwGkYZsm6EfIqnhaSz2avKt.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "is-god-is",
+          "title": "Is God Is",
+          "year": "2026",
+          "tmdbId": "1380316",
+          "poster": "https://image.tmdb.org/t/p/w780/rCYQGHdoz7qwYsb6wXETJfUfDLX.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "disclosure-day",
+          "title": "Disclosure Day",
+          "year": "2026",
+          "tmdbId": "1275779",
+          "poster": "https://image.tmdb.org/t/p/w780/259wnijEJoJLPuZuscxDTqwnypw.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "faces-of-death-2026",
+          "title": "Faces of Death",
+          "year": "2026",
+          "tmdbId": "855435",
+          "poster": "https://image.tmdb.org/t/p/w780/vPVY3S57lEooBLJCg6KGdMHkUxm.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "primate-2025",
+          "title": "Primate",
+          "year": "2025",
+          "tmdbId": "1315303",
+          "poster": "https://image.tmdb.org/t/p/w780/rKleYiEj4pFqxedTRWfujLooi84.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "1000-women-in-horror",
+          "title": "1000 Women in Horror",
+          "year": "2025",
+          "tmdbId": "1511505",
+          "poster": "https://image.tmdb.org/t/p/w780/3ElTptvgbI7kWmsqWNqBKkMsD3e.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "how-to-make-a-killing-2026",
+          "title": "How to Make a Killing",
+          "year": "2026",
+          "tmdbId": "467905",
+          "poster": "https://image.tmdb.org/t/p/w780/kw7x5mSmHhoeeqwXLwXTBsofD1N.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "something-very-bad-is-going-to-happen",
+          "title": "Something Very Bad Is Going to Happen",
+          "year": "2026",
+          "tmdbId": null,
+          "poster": "https://a.ltrbxd.com/resized/film-poster/1/5/2/1/7/8/6/1521786-something-very-bad-is-going-to-happen-0-600-0-900-crop.jpg?v=0d4f8e3ae9",
+          "cert": null,
+          "posterSource": "letterboxd"
+        },
+        {
+          "slug": "28-years-later-the-bone-temple",
+          "title": "28 Years Later: The Bone Temple",
+          "year": "2026",
+          "tmdbId": "1272837",
+          "poster": "https://image.tmdb.org/t/p/w780/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-devil-wears-prada-2",
+          "title": "The Devil Wears Prada 2",
+          "year": "2026",
+          "tmdbId": "1314481",
+          "poster": "https://image.tmdb.org/t/p/w780/fCAURTUx3YfsJ8k9I0UamjSILiR.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "roommates-2026",
+          "title": "Roommates",
+          "year": "2026",
+          "tmdbId": "1511057",
+          "poster": "https://image.tmdb.org/t/p/w780/eW1s6omXIfVkTlmKVe9y9Dwwt4u.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "forbidden-fruits-2026",
+          "title": "Forbidden Fruits",
+          "year": "2026",
+          "tmdbId": "1450527",
+          "poster": "https://image.tmdb.org/t/p/w780/nSlKzxvXWOeDC9qZiwkhGuTAKkq.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "pretty-lethal",
+          "title": "Pretty Lethal",
+          "year": "2026",
+          "tmdbId": "1084187",
+          "poster": "https://image.tmdb.org/t/p/w780/znTPnXCK3lEQJgqXCvP7e5FUz6f.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "over-your-dead-body-2026",
+          "title": "Over Your Dead Body",
+          "year": "2026",
+          "tmdbId": "1390300",
+          "poster": "https://image.tmdb.org/t/p/w780/kZCauMzAt9eMAhLMopCqnFw1Q5k.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "this-is-not-a-test-2025",
+          "title": "This Is Not a Test",
+          "year": "2025",
+          "tmdbId": "1428990",
+          "poster": "https://image.tmdb.org/t/p/w780/oZqxDDByIei1UVDgw7ZBXJCHHtI.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "exit-8",
+          "title": "Exit 8",
+          "year": "2025",
+          "tmdbId": "1408208",
+          "poster": "https://image.tmdb.org/t/p/w780/nQXYTvm6AY4WmtcPskroqC7Skh.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "kidnapped-elizabeth-smart",
+          "title": "Kidnapped: Elizabeth Smart",
+          "year": "2026",
+          "tmdbId": "1595481",
+          "poster": "https://image.tmdb.org/t/p/w780/8yuMPfz154d0PqX5PFXmgCCuTGd.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "lee-cronins-the-mummy",
+          "title": "Lee Cronin's The Mummy",
+          "year": "2026",
+          "tmdbId": "1304313",
+          "poster": "https://image.tmdb.org/t/p/w780/1q308iixueCU4pFtSYugNOevtNx.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "thrash-2026",
+          "title": "Thrash",
+          "year": "2026",
+          "tmdbId": "1290417",
+          "poster": "https://image.tmdb.org/t/p/w780/adk8weka3O5648g3de4z3y4aE7G.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "passenger-2026",
+          "title": "Passenger",
+          "year": "2026",
+          "tmdbId": "1368314",
+          "poster": "https://image.tmdb.org/t/p/w780/cpZZRm2luo2rEH5jxOl2JP3PTYU.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "slanted",
+          "title": "Slanted",
+          "year": "2025",
+          "tmdbId": "1297446",
+          "poster": "https://image.tmdb.org/t/p/w780/cr2SfN854IlEoZQBtIfpyC0zXR5.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "undertone-2025",
+          "title": "undertone",
+          "year": "2025",
+          "tmdbId": "1480387",
+          "poster": "https://image.tmdb.org/t/p/w780/2PFgFMnrdCPXWiZl1PUvky7Mo9D.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-crash-2026",
+          "title": "The Crash",
+          "year": "2026",
+          "tmdbId": "1662317",
+          "poster": "https://image.tmdb.org/t/p/w780/veskdPx4YUTmkrFrTs6zRJ8VV4E.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "wait-your-car",
+          "title": "Wait, Your Car?",
+          "year": "2025",
+          "tmdbId": "1477355",
+          "poster": "https://image.tmdb.org/t/p/w780/g20CanNUUyjrV2xZEE58XHkTAU7.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "dolly-2025",
+          "title": "Dolly",
+          "year": "2025",
+          "tmdbId": "1309083",
+          "poster": "https://image.tmdb.org/t/p/w780/sTPUg3XtdcKRAS5Vwsi1GYPFhNZ.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "cold-storage-2026",
+          "title": "Cold Storage",
+          "year": "2026",
+          "tmdbId": "696393",
+          "poster": "https://image.tmdb.org/t/p/w780/3HA2iiq982e01EKXJvPFyfMADVM.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "we-bury-the-dead",
+          "title": "We Bury the Dead",
+          "year": "2024",
+          "tmdbId": "1198984",
+          "poster": "https://image.tmdb.org/t/p/w780/xZqo0yPARmyF8TACVNyaOACkYWG.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-truth-and-tragedy-of-moriah-wilson",
+          "title": "The Truth and Tragedy of Moriah Wilson",
+          "year": "2026",
+          "tmdbId": "1629369",
+          "poster": "https://image.tmdb.org/t/p/w780/zoa2XatA43nKhF1kx8nVcVyH1M0.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "girls-like-girls",
+          "title": "Girls Like Girls",
+          "year": "2026",
+          "tmdbId": "1397485",
+          "poster": "https://image.tmdb.org/t/p/w780/lFjtAAK5jCPXdcKIgpVJ54Hm0G0.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "skyscraper-live",
+          "title": "Skyscraper Live",
+          "year": "2026",
+          "tmdbId": "1599090",
+          "poster": "https://image.tmdb.org/t/p/w780/hbURquxQUJXFfeqpjzmHekRmyqb.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-moment-2026",
+          "title": "The Moment",
+          "year": "2026",
+          "tmdbId": "1422562",
+          "poster": "https://image.tmdb.org/t/p/w780/dYgCgTqqMnWdsnP2XirdcFB28ch.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "hoppers",
+          "title": "Hoppers",
+          "year": "2026",
+          "tmdbId": "1327819",
+          "poster": "https://image.tmdb.org/t/p/w780/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "joes-college-road-trip",
+          "title": "Joe's College Road Trip",
+          "year": "2026",
+          "tmdbId": "1243460",
+          "poster": "https://image.tmdb.org/t/p/w780/jWGOCUlzF4aCVLwHoiuqWWfhcrA.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "scream-7",
+          "title": "Scream 7",
+          "year": "2026",
+          "tmdbId": "1159559",
+          "poster": "https://image.tmdb.org/t/p/w780/jjyuk0edLiW8vOSnlfwWCCLpbh5.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "stop-that-train",
+          "title": "Stop! That! Train!",
+          "year": "2026",
+          "tmdbId": "1541560",
+          "poster": "https://image.tmdb.org/t/p/w780/w90dGS6D2lVO4aO5rdQ8QECrUGY.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "pizza-movie-2026",
+          "title": "Pizza Movie",
+          "year": "2026",
+          "tmdbId": "1493859",
+          "poster": "https://image.tmdb.org/t/p/w780/3rovbwvxJ5eQrWrQnF1VfJoPcMD.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-strangers-chapter-3",
+          "title": "The Strangers: Chapter 3",
+          "year": "2026",
+          "tmdbId": "1010755",
+          "poster": "https://image.tmdb.org/t/p/w780/dWi4D1rUX1Pg4MaafpwwssqJ9lv.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-mortuary-assistant",
+          "title": "The Mortuary Assistant",
+          "year": "2026",
+          "tmdbId": "1470130",
+          "poster": "https://image.tmdb.org/t/p/w780/7k7hY1HqUYryPdRio0fuDMaIq4N.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        }
+      ]
+    },
+    {
+      "slug": "evil-dead-ranked",
+      "title": "Evil Dead Ranked",
+      "description": null,
+      "count": 6,
+      "films": [
+        {
+          "slug": "evil-dead",
+          "title": "Evil Dead",
+          "year": "2013",
+          "tmdbId": "109428",
+          "poster": "https://image.tmdb.org/t/p/w780/1gDV0Lm9y8ufIKzyf0h0GBgb9Zj.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "evil-dead-rise",
+          "title": "Evil Dead Rise",
+          "year": "2023",
+          "tmdbId": "713704",
+          "poster": "https://image.tmdb.org/t/p/w780/5ik4ATKmNtmJU6AYD0bLm56BCVM.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-evil-dead",
+          "title": "The Evil Dead",
+          "year": "1981",
+          "tmdbId": "764",
+          "poster": "https://image.tmdb.org/t/p/w780/54C1qdaiSijIU5NeNb4WsPJdNkG.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "evil-dead-ii",
+          "title": "Evil Dead II",
+          "year": "1987",
+          "tmdbId": "765",
+          "poster": "https://image.tmdb.org/t/p/w780/4zqCKJVHUolGs6C5AZwAZqLWixW.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "evil-dead-burn",
+          "title": "Evil Dead Burn",
+          "year": "2026",
+          "tmdbId": "1212763",
+          "poster": "https://image.tmdb.org/t/p/w780/ztadKzIIR0ERYqpHteaPFtk7inP.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "army-of-darkness",
+          "title": "Army of Darkness",
+          "year": "1992",
+          "tmdbId": "766",
+          "poster": "https://image.tmdb.org/t/p/w780/xsgTuAtR2zSH8Umg3jWZcZjlDpe.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        }
+      ]
+    },
+    {
+      "slug": "out-of-their-minds-a-case-on-institutional",
+      "title": "Out of Their Minds: A Case on Institutional Commitment",
+      "description": "Analyzing 6 Horror Franchises That Have Asylum Installments full article! ⛓️‍💥",
+      "count": 6,
+      "films": [
+        {
+          "slug": "a-nightmare-on-elm-street-3-dream-warriors",
+          "title": "A Nightmare on Elm Street 3: Dream Warriors",
+          "year": "1987",
+          "tmdbId": "10072",
+          "poster": "https://image.tmdb.org/t/p/w780/qbtZewU6EGvxi8yFVzwZ31NijLX.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "hellbound-hellraiser-ii",
+          "title": "Hellbound: Hellraiser II",
+          "year": "1988",
+          "tmdbId": "9064",
+          "poster": "https://image.tmdb.org/t/p/w780/auPOq1wgZuYSaADejOskBKG6fuV.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "halloween-5-the-revenge-of-michael-myers",
+          "title": "Halloween 5: The Revenge of Michael Myers",
+          "year": "1989",
+          "tmdbId": "11361",
+          "poster": "https://image.tmdb.org/t/p/w780/rYvP6yMXCIVHnkVtwGaAXFmpzkB.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-exorcist-iii",
+          "title": "The Exorcist III",
+          "year": "1990",
+          "tmdbId": "11587",
+          "poster": "https://image.tmdb.org/t/p/w780/rhSftgj3vwpIDSP8v67N8KEubmz.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "ginger-snaps-2-unleashed",
+          "title": "Ginger Snaps 2: Unleashed",
+          "year": "2004",
+          "tmdbId": "10361",
+          "poster": "https://image.tmdb.org/t/p/w780/no1Qw1jMGrH77fIuWxwYZ7BIhHa.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "cult-of-chucky",
+          "title": "Cult of Chucky",
+          "year": "2017",
+          "tmdbId": "393345",
+          "poster": "https://image.tmdb.org/t/p/w780/r5JUiMYfatwYeDkxkLWYUx5GIjY.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        }
+      ]
+    },
+    {
+      "slug": "4th-of-july-horror",
+      "title": "4th of July Horror",
+      "description": null,
+      "count": 24,
+      "films": [
+        {
+          "slug": "uncle-sam",
+          "title": "Uncle Sam",
+          "year": "1996",
+          "tmdbId": "9680",
+          "poster": "https://image.tmdb.org/t/p/w780/fp1agcfQwsOepWIVNgS09MyPLXz.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-return-of-the-living-dead",
+          "title": "The Return of the Living Dead",
+          "year": "1985",
+          "tmdbId": "10925",
+          "poster": "https://image.tmdb.org/t/p/w780/oNsV9BychAe4Sk6xFKp558Rlpyz.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "re-elected",
+          "title": "Re-Elected",
+          "year": "2020",
+          "tmdbId": "583984",
+          "poster": "https://image.tmdb.org/t/p/w780/iZqYQwRve5DSPopmZWdyvY9DVMx.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "jaws",
+          "title": "Jaws",
+          "year": "1975",
+          "tmdbId": "578",
+          "poster": "https://image.tmdb.org/t/p/w780/lxM6kqilAdpdhqUl2biYp5frUxE.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-bay",
+          "title": "The Bay",
+          "year": "2012",
+          "tmdbId": "123105",
+          "poster": "https://image.tmdb.org/t/p/w780/fnmYgr4AOOE09zKa7omPW1FWT8K.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "blow-out",
+          "title": "Blow Out",
+          "year": "1981",
+          "tmdbId": "11644",
+          "poster": "https://image.tmdb.org/t/p/w780/uFzMscVLDrTaYd6KXOXlr6dly7w.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "frogs",
+          "title": "Frogs",
+          "year": "1972",
+          "tmdbId": "18274",
+          "poster": "https://image.tmdb.org/t/p/w780/dF2OlQBMJiggzkjhfaNfx7HzBOU.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "silver-bullet",
+          "title": "Silver Bullet",
+          "year": "1985",
+          "tmdbId": "17898",
+          "poster": "https://image.tmdb.org/t/p/w780/52CvWYuJyWcMTPvsfcmsxaVHi7f.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "independence-day",
+          "title": "Independence Day",
+          "year": "1996",
+          "tmdbId": "602",
+          "poster": "https://image.tmdb.org/t/p/w780/p0BPQGSPoSa8Ml0DAf2mB2kCU0R.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "ghost-shark",
+          "title": "Ghost Shark",
+          "year": "2013",
+          "tmdbId": "216539",
+          "poster": "https://image.tmdb.org/t/p/w780/erZ7mMudfRES9We5zmclUqQltoQ.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "founders-day",
+          "title": "Founders Day",
+          "year": "2023",
+          "tmdbId": "1055451",
+          "poster": "https://image.tmdb.org/t/p/w780/ohzLPC9lHUWseBgB7HRcz0GBkFb.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "final-destination-3",
+          "title": "Final Destination 3",
+          "year": "2006",
+          "tmdbId": "9286",
+          "poster": "https://image.tmdb.org/t/p/w780/p7ARuNKUGPGvkBiDtIDvAzYzonX.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "cape-fear-1991",
+          "title": "Cape Fear",
+          "year": "1991",
+          "tmdbId": "1598",
+          "poster": "https://image.tmdb.org/t/p/w780/meJZAAuVcjic2ipvbOPz5UlE4P9.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "abraham-lincoln-vampire-hunter",
+          "title": "Abraham Lincoln: Vampire Hunter",
+          "year": "2012",
+          "tmdbId": "72331",
+          "poster": "https://image.tmdb.org/t/p/w780/qv8deK0ZmutAuEpejruQKApIy6r.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "abraham-lincoln-vs-zombies",
+          "title": "Abraham Lincoln vs. Zombies",
+          "year": "2012",
+          "tmdbId": "98948",
+          "poster": "https://image.tmdb.org/t/p/w780/kcrZQxlzyCepVGqvWvWSm67JFhL.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "i-know-what-you-did-last-summer",
+          "title": "I Know What You Did Last Summer",
+          "year": "1997",
+          "tmdbId": "3597",
+          "poster": "https://image.tmdb.org/t/p/w780/dQyaJx0SptDqvQcAewAr8FAtLB2.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "i-still-know-what-you-did-last-summer",
+          "title": "I Still Know What You Did Last Summer",
+          "year": "1998",
+          "tmdbId": "3600",
+          "poster": "https://image.tmdb.org/t/p/w780/eg3d6hvTaOmW3lNErFfutBmWmAR.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "ill-always-know-what-you-did-last-summer",
+          "title": "I'll Always Know What You Did Last Summer",
+          "year": "2006",
+          "tmdbId": "3602",
+          "poster": "https://image.tmdb.org/t/p/w780/4gDbZ60YJ6WDstT0XOBABq4bQtO.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "i-know-what-you-did-last-summer-2025",
+          "title": "I Know What You Did Last Summer",
+          "year": "2025",
+          "tmdbId": "1083433",
+          "poster": "https://image.tmdb.org/t/p/w780/8FP2ObEGIiQYQCf83gL4ZVzwZF8.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-purge",
+          "title": "The Purge",
+          "year": "2013",
+          "tmdbId": "158015",
+          "poster": "https://image.tmdb.org/t/p/w780/46X1ei9uf13nkkr0OhWldGyr5Uh.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-purge-anarchy",
+          "title": "The Purge: Anarchy",
+          "year": "2014",
+          "tmdbId": "238636",
+          "poster": "https://image.tmdb.org/t/p/w780/qwqHHZLZSUvMkAMQ47ymtfjEifY.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-purge-election-year",
+          "title": "The Purge: Election Year",
+          "year": "2016",
+          "tmdbId": "316727",
+          "poster": "https://image.tmdb.org/t/p/w780/gg7tlp45xqGWMra0sqQVPvybje2.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-first-purge",
+          "title": "The First Purge",
+          "year": "2018",
+          "tmdbId": "442249",
+          "poster": "https://image.tmdb.org/t/p/w780/litjsBoiydO6JlO70uOX4N3WnNL.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-forever-purge",
+          "title": "The Forever Purge",
+          "year": "2021",
+          "tmdbId": "602223",
+          "poster": "https://image.tmdb.org/t/p/w780/lB068qa6bQ0QKYKyC2xnYGvYjl7.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        }
+      ]
+    },
+    {
+      "slug": "zombies",
+      "title": "Zombies",
+      "description": "roughly all the zombie movies i’ve seen i didn’t used to be such a huge zombie fan but i have college to thank for that lol",
+      "count": 66,
+      "films": [
+        {
+          "slug": "night-of-the-living-dead",
+          "title": "Night of the Living Dead",
+          "year": "1968",
+          "tmdbId": "10331",
+          "poster": "https://image.tmdb.org/t/p/w780/rb2NWyb008u1EcKCOyXs2Nmj0ra.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "dawn-of-the-dead",
+          "title": "Dawn of the Dead",
+          "year": "1978",
+          "tmdbId": "923",
+          "poster": "https://image.tmdb.org/t/p/w780/70MY8H0bLMvXf8ED2SgVMPhDVVM.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "cemetery-man",
+          "title": "Cemetery Man",
+          "year": "1994",
+          "tmdbId": "21588",
+          "poster": "https://image.tmdb.org/t/p/w780/cI5AV3jCuxmoQp0N7Z16SI2b7Xk.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-return-of-the-living-dead",
+          "title": "The Return of the Living Dead",
+          "year": "1985",
+          "tmdbId": "10925",
+          "poster": "https://image.tmdb.org/t/p/w780/oNsV9BychAe4Sk6xFKp558Rlpyz.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "re-animator",
+          "title": "Re-Animator",
+          "year": "1985",
+          "tmdbId": "1694",
+          "poster": "https://image.tmdb.org/t/p/w780/7FYhY70LTumoFfQgTI8TK0UDdsF.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "shaun-of-the-dead",
+          "title": "Shaun of the Dead",
+          "year": "2004",
+          "tmdbId": "747",
+          "poster": "https://image.tmdb.org/t/p/w780/dgXPhzNJH8HFTBjXPB177yNx6RI.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "braindead-1992",
+          "title": "Braindead",
+          "year": "1992",
+          "tmdbId": "763",
+          "poster": "https://image.tmdb.org/t/p/w780/pa39D8TQs6aNw3hiUs4jLjHVUB0.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "paranorman",
+          "title": "ParaNorman",
+          "year": "2012",
+          "tmdbId": "77174",
+          "poster": "https://image.tmdb.org/t/p/w780/9DZPtuYTKYxt6vzHvZ5FLThG4fl.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "return-of-the-living-dead-necropolis",
+          "title": "Return of the Living Dead: Necropolis",
+          "year": "2005",
+          "tmdbId": "24935",
+          "poster": "https://image.tmdb.org/t/p/w780/yJZZthnvnJ7l4kMWud9BpTvopdn.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-stuff",
+          "title": "The Stuff",
+          "year": "1985",
+          "tmdbId": "18502",
+          "poster": "https://image.tmdb.org/t/p/w780/bT0PxmeePfzX8YrZHGaAXau9RLN.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "dawn-of-the-dead-2004",
+          "title": "Dawn of the Dead",
+          "year": "2004",
+          "tmdbId": "924",
+          "poster": "https://image.tmdb.org/t/p/w780/ttquyxStEEctzghtA2f4PUGprDr.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "white-zombie",
+          "title": "White Zombie",
+          "year": "1932",
+          "tmdbId": "26860",
+          "poster": "https://image.tmdb.org/t/p/w780/s5DnfWHGeCExlweIFF4JOHKyx3H.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "scooby-doo-on-zombie-island",
+          "title": "Scooby-Doo on Zombie Island",
+          "year": "1998",
+          "tmdbId": "13151",
+          "poster": "https://image.tmdb.org/t/p/w780/7xliOcDY0vN6kiqHGVzgPMsBX2c.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-sadness-2021",
+          "title": "The Sadness",
+          "year": "2021",
+          "tmdbId": "776797",
+          "poster": "https://image.tmdb.org/t/p/w780/mi5lh2brPMzuWYddyUKuCtcnjt1.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "planet-terror",
+          "title": "Planet Terror",
+          "year": "2007",
+          "tmdbId": "1992",
+          "poster": "https://image.tmdb.org/t/p/w780/3705GxG0RN9XDV5y9IiXKYHw1fK.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "28-days-later",
+          "title": "28 Days Later",
+          "year": "2002",
+          "tmdbId": "170",
+          "poster": "https://image.tmdb.org/t/p/w780/sQckQRt17VaWbo39GIu0TMOiszq.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "28-weeks-later",
+          "title": "28 Weeks Later",
+          "year": "2007",
+          "tmdbId": "1562",
+          "poster": "https://image.tmdb.org/t/p/w780/oix0aNv1lvW3nUGspUyvSIBlpbs.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "28-years-later",
+          "title": "28 Years Later",
+          "year": "2025",
+          "tmdbId": "1100988",
+          "poster": "https://image.tmdb.org/t/p/w780/n5FygjEppOvac6yEaowi26nTyw3.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "warm-bodies",
+          "title": "Warm Bodies",
+          "year": "2013",
+          "tmdbId": "82654",
+          "poster": "https://image.tmdb.org/t/p/w780/i8vCO3uszvlfBJVEyuIZVUDlt60.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "zombieland",
+          "title": "Zombieland",
+          "year": "2009",
+          "tmdbId": "19908",
+          "poster": "https://image.tmdb.org/t/p/w780/dUkAmAyPVqubSBNRjRqCgHggZcK.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "zombieland-double-tap",
+          "title": "Zombieland: Double Tap",
+          "year": "2019",
+          "tmdbId": "338967",
+          "poster": "https://image.tmdb.org/t/p/w780/dtRbVsUb5O12WWO54SRpiMtHKC0.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "return-of-the-living-dead-iii",
+          "title": "Return of the Living Dead III",
+          "year": "1993",
+          "tmdbId": "28260",
+          "poster": "https://image.tmdb.org/t/p/w780/lu4Eit7pR5I8hGHJmy3K9Re8FPo.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "return-of-the-living-dead-part-ii",
+          "title": "Return of the Living Dead Part II",
+          "year": "1988",
+          "tmdbId": "24929",
+          "poster": "https://image.tmdb.org/t/p/w780/2zY8kt1HnQ8p8mjKcqBp9yQEC8x.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "zombie-strippers",
+          "title": "Zombie Strippers!",
+          "year": "2008",
+          "tmdbId": "13009",
+          "poster": "https://image.tmdb.org/t/p/w780/iQcOzXCpewM9pbEwLoIrHLjpMvB.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "idle-hands",
+          "title": "Idle Hands",
+          "year": "1999",
+          "tmdbId": "6552",
+          "poster": "https://image.tmdb.org/t/p/w780/mCO4gU1lkViGXTkoRBEYrvjDIJu.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "i-walked-with-a-zombie",
+          "title": "I Walked with a Zombie",
+          "year": "1943",
+          "tmdbId": "27130",
+          "poster": "https://image.tmdb.org/t/p/w780/uoyBR8XNxPQRojujtczfG1qJezY.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "corpse-bride",
+          "title": "Corpse Bride",
+          "year": "2005",
+          "tmdbId": "3933",
+          "poster": "https://image.tmdb.org/t/p/w780/3RAoVTxUk1OzZClscAsynuu670p.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "world-war-z",
+          "title": "World War Z",
+          "year": "2013",
+          "tmdbId": "72190",
+          "poster": "https://image.tmdb.org/t/p/w780/aCnVdvExw6UWSeQfr0tUH3jr4qG.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "train-to-busan",
+          "title": "Train to Busan",
+          "year": "2016",
+          "tmdbId": "396535",
+          "poster": "https://image.tmdb.org/t/p/w780/vNVFt6dtcqnI7hqa6LFBUibuFiw.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "slither",
+          "title": "Slither",
+          "year": "2006",
+          "tmdbId": "9035",
+          "poster": "https://image.tmdb.org/t/p/w780/zNlJvCY3Pz7SE09Lf4G7uPs5XFZ.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "scouts-guide-to-the-zombie-apocalypse",
+          "title": "Scouts Guide to the Zombie Apocalypse",
+          "year": "2015",
+          "tmdbId": "273477",
+          "poster": "https://image.tmdb.org/t/p/w780/lUKvvSnjFlazrdh6wyHxHrdMknD.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "rec",
+          "title": "[REC]",
+          "year": "2007",
+          "tmdbId": "8329",
+          "poster": "https://image.tmdb.org/t/p/w780/hgyJR4sgMsee6xMFM3xYiG6cDCh.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-cabin-in-the-woods",
+          "title": "The Cabin in the Woods",
+          "year": "2011",
+          "tmdbId": "22970",
+          "poster": "https://image.tmdb.org/t/p/w780/zZZe5wn0udlhMtdlDjN4NB72R6e.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-evil-dead",
+          "title": "The Evil Dead",
+          "year": "1981",
+          "tmdbId": "764",
+          "poster": "https://image.tmdb.org/t/p/w780/54C1qdaiSijIU5NeNb4WsPJdNkG.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "evil-dead-ii",
+          "title": "Evil Dead II",
+          "year": "1987",
+          "tmdbId": "765",
+          "poster": "https://image.tmdb.org/t/p/w780/4zqCKJVHUolGs6C5AZwAZqLWixW.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "army-of-darkness",
+          "title": "Army of Darkness",
+          "year": "1992",
+          "tmdbId": "766",
+          "poster": "https://image.tmdb.org/t/p/w780/xsgTuAtR2zSH8Umg3jWZcZjlDpe.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "rabid",
+          "title": "Rabid",
+          "year": "1977",
+          "tmdbId": "29437",
+          "poster": "https://image.tmdb.org/t/p/w780/gIsuIWnvDozlQP4ya6OZEXqDecj.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "return-of-the-living-dead-rave-to-the-grave",
+          "title": "Return of the Living Dead: Rave to the Grave",
+          "year": "2005",
+          "tmdbId": "24939",
+          "poster": "https://image.tmdb.org/t/p/w780/dDmrNvttYmbRT3sZbiCXDmXvyyf.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-beyond",
+          "title": "The Beyond",
+          "year": "1981",
+          "tmdbId": "19204",
+          "poster": "https://image.tmdb.org/t/p/w780/kMSZHq9VYQV1FCbM8nz2zrZShzx.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "evil-dead-rise",
+          "title": "Evil Dead Rise",
+          "year": "2023",
+          "tmdbId": "713704",
+          "poster": "https://image.tmdb.org/t/p/w780/5ik4ATKmNtmJU6AYD0bLm56BCVM.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "cold-storage-2026",
+          "title": "Cold Storage",
+          "year": "2026",
+          "tmdbId": "696393",
+          "poster": "https://image.tmdb.org/t/p/w780/3HA2iiq982e01EKXJvPFyfMADVM.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "wild-zero",
+          "title": "Wild Zero",
+          "year": "1999",
+          "tmdbId": "16231",
+          "poster": "https://image.tmdb.org/t/p/w780/9HOpvIaFJSwFyDXoULC9hWVdVsS.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "thriller-night",
+          "title": "Thriller Night",
+          "year": "2011",
+          "tmdbId": "118249",
+          "poster": "https://image.tmdb.org/t/p/w780/mPQei2YUIY0Ljd3O5Wy7LDuvC8S.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "night-of-the-living-doo",
+          "title": "Night of the Living Doo",
+          "year": "2001",
+          "tmdbId": "298015",
+          "poster": "https://image.tmdb.org/t/p/w780/aivTxgtMuUFbLPuGshi4OY4Nzla.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "night-of-the-living-carrots",
+          "title": "Night of the Living Carrots",
+          "year": "2011",
+          "tmdbId": "118248",
+          "poster": "https://image.tmdb.org/t/p/w780/xncFlpkcWyK5aKmPrvmoJJ7YrTw.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "pet-sematary",
+          "title": "Pet Sematary",
+          "year": "1989",
+          "tmdbId": "8913",
+          "poster": "https://image.tmdb.org/t/p/w780/a1gIACZb04bL8EvLqMpofW2Eqeo.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "creepshow",
+          "title": "Creepshow",
+          "year": "1982",
+          "tmdbId": "16281",
+          "poster": "https://image.tmdb.org/t/p/w780/4SoyTCEpsgLjX6yAyMsx3AsAyRQ.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "scared-shrekless",
+          "title": "Scared Shrekless",
+          "year": "2010",
+          "tmdbId": "48466",
+          "poster": "https://image.tmdb.org/t/p/w780/aAQQJhX8NqKZ7ZNDUPQQKi1wK8h.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "zombi-child",
+          "title": "Zombi Child",
+          "year": "2019",
+          "tmdbId": "554311",
+          "poster": "https://image.tmdb.org/t/p/w780/hCm2mO44BRTGdUrnywzqHUJfNpM.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "night-of-the-creeps",
+          "title": "Night of the Creeps",
+          "year": "1986",
+          "tmdbId": "15762",
+          "poster": "https://image.tmdb.org/t/p/w780/A3s2tQGNb6mhlr1hPZeE5F8IUwp.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "zombie-flesh-eaters",
+          "title": "Zombie Flesh Eaters",
+          "year": "1979",
+          "tmdbId": "7219",
+          "poster": "https://image.tmdb.org/t/p/w780/jc17a3PqDnQeBzT7GbK0dp8TDvx.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "day-of-the-dead",
+          "title": "Day of the Dead",
+          "year": "1985",
+          "tmdbId": "8408",
+          "poster": "https://image.tmdb.org/t/p/w780/bi7SO5F4VyyGQTlxQirbH1dwKzW.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "evil-dead",
+          "title": "Evil Dead",
+          "year": "2013",
+          "tmdbId": "109428",
+          "poster": "https://image.tmdb.org/t/p/w780/1gDV0Lm9y8ufIKzyf0h0GBgb9Zj.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "28-years-later-the-bone-temple",
+          "title": "28 Years Later: The Bone Temple",
+          "year": "2026",
+          "tmdbId": "1272837",
+          "poster": "https://image.tmdb.org/t/p/w780/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-dead-dont-die-2019",
+          "title": "The Dead Don't Die",
+          "year": "2019",
+          "tmdbId": "535581",
+          "poster": "https://image.tmdb.org/t/p/w780/fgGzTEoNxptCRtEOpOPvIEdlxAq.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "re-elected",
+          "title": "Re-Elected",
+          "year": "2020",
+          "tmdbId": "583984",
+          "poster": "https://image.tmdb.org/t/p/w780/iZqYQwRve5DSPopmZWdyvY9DVMx.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "michael-jacksons-thriller",
+          "title": "Michael Jackson's Thriller",
+          "year": "1983",
+          "tmdbId": "92060",
+          "poster": "https://image.tmdb.org/t/p/w780/dYHGoPMkZMVuBA4EydmDQMo1EEv.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "we-bury-the-dead",
+          "title": "We Bury the Dead",
+          "year": "2024",
+          "tmdbId": "1198984",
+          "poster": "https://image.tmdb.org/t/p/w780/xZqo0yPARmyF8TACVNyaOACkYWG.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "all-cheerleaders-die",
+          "title": "All Cheerleaders Die",
+          "year": "2013",
+          "tmdbId": "210908",
+          "poster": "https://image.tmdb.org/t/p/w780/sEB1G5XiX6UTDYBzfDSh60Q5KwU.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "this-is-not-a-test-2025",
+          "title": "This Is Not a Test",
+          "year": "2025",
+          "tmdbId": "1428990",
+          "poster": "https://image.tmdb.org/t/p/w780/oZqxDDByIei1UVDgw7ZBXJCHHtI.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "cannibal-girls",
+          "title": "Cannibal Girls",
+          "year": "1973",
+          "tmdbId": "58411",
+          "poster": "https://image.tmdb.org/t/p/w780/rsKWMYCgrhUcL8xKKkatHl7Ep19.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "cooties",
+          "title": "Cooties",
+          "year": "2014",
+          "tmdbId": "241843",
+          "poster": "https://image.tmdb.org/t/p/w780/oFBQsngRdgxnbO4H1FIbQ0Zuq43.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-wailing",
+          "title": "The Wailing",
+          "year": "2016",
+          "tmdbId": "293670",
+          "poster": "https://image.tmdb.org/t/p/w780/RbymxgEM5SpDfO2Io2JMFG10Vi.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "tales-from-the-hood",
+          "title": "Tales from the Hood",
+          "year": "1995",
+          "tmdbId": "25066",
+          "poster": "https://image.tmdb.org/t/p/w780/glPNCcI7V8zTTI3BG0iIUJJcwXN.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "get-out-2017",
+          "title": "Get Out",
+          "year": "2017",
+          "tmdbId": "419430",
+          "poster": "https://image.tmdb.org/t/p/w780/tFXcEccSQMf3lfhfXKSU9iRBpa3.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-serpent-and-the-rainbow",
+          "title": "The Serpent and the Rainbow",
+          "year": "1988",
+          "tmdbId": "11503",
+          "poster": "https://image.tmdb.org/t/p/w780/ezgaj43WaSmyQa24NLG7vPK9hb5.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        }
+      ]
+    },
+    {
+      "slug": "hellraiser-ranked",
+      "title": "Hellraiser Ranked",
+      "description": null,
+      "count": 7,
+      "films": [
+        {
+          "slug": "hellraiser",
+          "title": "Hellraiser",
+          "year": "1987",
+          "tmdbId": "9003",
+          "poster": "https://image.tmdb.org/t/p/w780/3Z0oPHyLnk3Vx6ZMC1MiVwIrKhO.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "hellraiser-iii-hell-on-earth",
+          "title": "Hellraiser III: Hell on Earth",
+          "year": "1992",
+          "tmdbId": "11569",
+          "poster": "https://image.tmdb.org/t/p/w780/qnXEJp6KP6aIGWhNrg1fOKza4kp.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "hellbound-hellraiser-ii",
+          "title": "Hellbound: Hellraiser II",
+          "year": "1988",
+          "tmdbId": "9064",
+          "poster": "https://image.tmdb.org/t/p/w780/auPOq1wgZuYSaADejOskBKG6fuV.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "hellraiser-2022",
+          "title": "Hellraiser",
+          "year": "2022",
+          "tmdbId": "338947",
+          "poster": "https://image.tmdb.org/t/p/w780/f9ZAIUxTTk23vo1BC9Ur1Rx5c2E.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "hellraiser-bloodline",
+          "title": "Hellraiser: Bloodline",
+          "year": "1996",
+          "tmdbId": "8766",
+          "poster": "https://image.tmdb.org/t/p/w780/tCQsVackQil2fl5TzOYrCAI6All.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "hellraiser-hellseeker",
+          "title": "Hellraiser: Hellseeker",
+          "year": "2002",
+          "tmdbId": "11246",
+          "poster": "https://image.tmdb.org/t/p/w780/r6aaaXLgwp2nuX5tGtisRM5fsHW.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "hellraiser-inferno",
+          "title": "Hellraiser: Inferno",
+          "year": "2000",
+          "tmdbId": "12597",
+          "poster": "https://image.tmdb.org/t/p/w780/yyiuRnEIDCjr0g2Fsal0isi9GcU.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        }
+      ]
+    },
+    {
+      "slug": "hhn-35",
+      "title": "HHN 35",
+      "description": null,
+      "count": 13,
+      "films": [
+        {
+          "slug": "sinners-2025",
+          "title": "Sinners",
+          "year": "2025",
+          "tmdbId": "1233413",
+          "poster": "https://image.tmdb.org/t/p/w780/fWPgbnt2LSqkQ6cdQc0SZN9CpLm.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "stranger-things-5-the-finale",
+          "title": "Stranger Things 5: The Finale",
+          "year": "2025",
+          "tmdbId": "1567451",
+          "poster": "https://a.ltrbxd.com/resized/film-poster/1/4/4/0/3/3/4/1440334-stranger-things-5-the-finale-0-600-0-900-crop.jpg?v=b9fef563bd",
+          "cert": null,
+          "posterSource": "letterboxd"
+        },
+        {
+          "slug": "hellraiser",
+          "title": "Hellraiser",
+          "year": "1987",
+          "tmdbId": "9003",
+          "poster": "https://image.tmdb.org/t/p/w780/3Z0oPHyLnk3Vx6ZMC1MiVwIrKhO.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "hellbound-hellraiser-ii",
+          "title": "Hellbound: Hellraiser II",
+          "year": "1988",
+          "tmdbId": "9064",
+          "poster": "https://image.tmdb.org/t/p/w780/auPOq1wgZuYSaADejOskBKG6fuV.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "hellraiser-iii-hell-on-earth",
+          "title": "Hellraiser III: Hell on Earth",
+          "year": "1992",
+          "tmdbId": "11569",
+          "poster": "https://image.tmdb.org/t/p/w780/qnXEJp6KP6aIGWhNrg1fOKza4kp.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "hellraiser-bloodline",
+          "title": "Hellraiser: Bloodline",
+          "year": "1996",
+          "tmdbId": "8766",
+          "poster": "https://image.tmdb.org/t/p/w780/tCQsVackQil2fl5TzOYrCAI6All.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "hellraiser-inferno",
+          "title": "Hellraiser: Inferno",
+          "year": "2000",
+          "tmdbId": "12597",
+          "poster": "https://image.tmdb.org/t/p/w780/yyiuRnEIDCjr0g2Fsal0isi9GcU.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "hellraiser-hellseeker",
+          "title": "Hellraiser: Hellseeker",
+          "year": "2002",
+          "tmdbId": "11246",
+          "poster": "https://image.tmdb.org/t/p/w780/r6aaaXLgwp2nuX5tGtisRM5fsHW.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "hellraiser-deader",
+          "title": "Hellraiser: Deader",
+          "year": "2005",
+          "tmdbId": "17455",
+          "poster": "https://image.tmdb.org/t/p/w780/dsKRtNIPFcmxhs6RDOMRCm0PfkW.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "hellraiser-hellworld",
+          "title": "Hellraiser: Hellworld",
+          "year": "2005",
+          "tmdbId": "12699",
+          "poster": "https://image.tmdb.org/t/p/w780/p3QI77LO2TSeLfZ0CHdbw0uITef.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "hellraiser-revelations",
+          "title": "Hellraiser: Revelations",
+          "year": "2011",
+          "tmdbId": "70584",
+          "poster": "https://image.tmdb.org/t/p/w780/lnCmYyYqpwXQAll5AUfNxlnvQk0.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "hellraiser-judgment",
+          "title": "Hellraiser: Judgment",
+          "year": "2018",
+          "tmdbId": "444149",
+          "poster": "https://image.tmdb.org/t/p/w780/nYlSoysJVSvfKhMMKB6PLbXuWUK.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "hellraiser-2022",
+          "title": "Hellraiser",
+          "year": "2022",
+          "tmdbId": "338947",
+          "poster": "https://image.tmdb.org/t/p/w780/f9ZAIUxTTk23vo1BC9Ur1Rx5c2E.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        }
+      ]
+    },
+    {
+      "slug": "my-favs",
+      "title": "My Favs",
+      "description": "in no particular order !! ⭒ just movies that i love  (some that i just discovered and some i grew up with) and if anyone were to bring these movies up or ask me ab them i will rant for hours or say “wait i love that movie”",
+      "count": 201,
+      "films": [
+        {
+          "slug": "bound",
+          "title": "Bound",
+          "year": "1996",
+          "tmdbId": "9303",
+          "poster": "https://image.tmdb.org/t/p/w780/9qAy6UWVw44dGrsyKrdEMt5qIUM.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "scream-vi",
+          "title": "Scream VI",
+          "year": "2023",
+          "tmdbId": "934433",
+          "poster": "https://image.tmdb.org/t/p/w780/wDWwtvkRRlgTiUr6TyLSMX8FCuZ.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "scream-4",
+          "title": "Scream 4",
+          "year": "2011",
+          "tmdbId": "41446",
+          "poster": "https://image.tmdb.org/t/p/w780/3cf8p2qw9qnsaaFWc64AG6U05eT.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "scream-3",
+          "title": "Scream 3",
+          "year": "2000",
+          "tmdbId": "4234",
+          "poster": "https://image.tmdb.org/t/p/w780/qpH8ToZVlFD1bakL04LkEKodyDI.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-crow",
+          "title": "The Crow",
+          "year": "1994",
+          "tmdbId": "9495",
+          "poster": "https://image.tmdb.org/t/p/w780/rMMB3v6jYHjsvXRNJYESacoTD7j.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "sleepy-hollow",
+          "title": "Sleepy Hollow",
+          "year": "1999",
+          "tmdbId": "2668",
+          "poster": "https://image.tmdb.org/t/p/w780/1GuK965FLJxqUw9fd1pmvjbFAlv.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "bride-of-chucky",
+          "title": "Bride of Chucky",
+          "year": "1998",
+          "tmdbId": "11932",
+          "poster": "https://image.tmdb.org/t/p/w780/yaIPNOcC7ZRuwH3maNwP9qzIo5G.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "it-2017",
+          "title": "It",
+          "year": "2017",
+          "tmdbId": "346364",
+          "poster": "https://image.tmdb.org/t/p/w780/9E2y5Q7WlCVNEhP5GiVTjhEhx1o.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "it-chapter-two",
+          "title": "It Chapter Two",
+          "year": "2019",
+          "tmdbId": "474350",
+          "poster": "https://image.tmdb.org/t/p/w780/zfE0R94v1E8cuKAerbskfD3VfUt.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "x-2022",
+          "title": "X",
+          "year": "2022",
+          "tmdbId": "760104",
+          "poster": "https://image.tmdb.org/t/p/w780/joJEbRt8A5vG6DHN1hoqoCf3Izl.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "basic-instinct",
+          "title": "Basic Instinct",
+          "year": "1992",
+          "tmdbId": "402",
+          "poster": "https://image.tmdb.org/t/p/w780/76Ts0yoHk8kVQj9MMnoMixhRWoh.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "seed-of-chucky",
+          "title": "Seed of Chucky",
+          "year": "2004",
+          "tmdbId": "11249",
+          "poster": "https://image.tmdb.org/t/p/w780/vd9K93gQ9whMKjXzADZanxWpIXM.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "pearl-2022",
+          "title": "Pearl",
+          "year": "2022",
+          "tmdbId": "949423",
+          "poster": "https://image.tmdb.org/t/p/w780/z5uIG81pXyHKg7cUFIu84Wjn4NS.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "candyman",
+          "title": "Candyman",
+          "year": "1992",
+          "tmdbId": "9529",
+          "poster": "https://image.tmdb.org/t/p/w780/jQtgkgDZE7egMq532sOt83DnT83.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "candyman-2021",
+          "title": "Candyman",
+          "year": "2021",
+          "tmdbId": "565028",
+          "poster": "https://image.tmdb.org/t/p/w780/dqoshZPLNsXlC1qtz5n34raUyrE.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "love-lies-bleeding-2024",
+          "title": "Love Lies Bleeding",
+          "year": "2024",
+          "tmdbId": "948549",
+          "poster": "https://image.tmdb.org/t/p/w780/xImj8RLe39YK0lyVu9kXv7ApN8p.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "a-nightmare-on-elm-street",
+          "title": "A Nightmare on Elm Street",
+          "year": "1984",
+          "tmdbId": "377",
+          "poster": "https://image.tmdb.org/t/p/w780/b9rMHAAKISRmIonaQd9Cccx0S4X.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "wes-cravens-new-nightmare",
+          "title": "Wes Craven's New Nightmare",
+          "year": "1994",
+          "tmdbId": "11596",
+          "poster": "https://image.tmdb.org/t/p/w780/q5BWxfL1x34nyYSvA3Qo5odleGW.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "scream-2",
+          "title": "Scream 2",
+          "year": "1997",
+          "tmdbId": "4233",
+          "poster": "https://image.tmdb.org/t/p/w780/dORlVasiaDkJXTqt9bdH7nFNs6C.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "michael-jacksons-thriller",
+          "title": "Michael Jackson's Thriller",
+          "year": "1983",
+          "tmdbId": "92060",
+          "poster": "https://image.tmdb.org/t/p/w780/dYHGoPMkZMVuBA4EydmDQMo1EEv.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "scooby-doo-and-the-witchs-ghost",
+          "title": "Scooby-Doo! and the Witch's Ghost",
+          "year": "1999",
+          "tmdbId": "17681",
+          "poster": "https://image.tmdb.org/t/p/w780/7QdF1SKEIBtlkJZtkWM4qekwEtG.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-lost-boys",
+          "title": "The Lost Boys",
+          "year": "1987",
+          "tmdbId": "1547",
+          "poster": "https://image.tmdb.org/t/p/w780/nH1lvyQvfbL5GKScTtT6zkIvDEn.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "buffy-the-vampire-slayer",
+          "title": "Buffy the Vampire Slayer",
+          "year": "1992",
+          "tmdbId": "10206",
+          "poster": "https://image.tmdb.org/t/p/w780/tcF3S4UdFpuoZEWovMDq5AXazNF.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "def-by-temptation",
+          "title": "Def by Temptation",
+          "year": "1990",
+          "tmdbId": "71853",
+          "poster": "https://image.tmdb.org/t/p/w780/cC96OjOeYXmBF6RuePlxA709tkz.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "body-of-evidence",
+          "title": "Body of Evidence",
+          "year": "1993",
+          "tmdbId": "2149",
+          "poster": "https://image.tmdb.org/t/p/w780/rGDfwZHRMpY5R0ZkmaiHHvpYQKB.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "showgirls",
+          "title": "Showgirls",
+          "year": "1995",
+          "tmdbId": "10802",
+          "poster": "https://image.tmdb.org/t/p/w780/o4HT3Ap5c99W4FYpdXUtTvxGgPc.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "sunset-boulevard",
+          "title": "Sunset Boulevard",
+          "year": "1950",
+          "tmdbId": "599",
+          "poster": "https://image.tmdb.org/t/p/w780/zt8aQ6ksqK6p1AopC5zVTDS9pKT.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "alucarda",
+          "title": "Alucarda",
+          "year": "1977",
+          "tmdbId": "40074",
+          "poster": "https://image.tmdb.org/t/p/w780/auZZ7zqm7qbLWBTmq4S2fO6L64m.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "cecil-b-demented",
+          "title": "Cecil B. Demented",
+          "year": "2000",
+          "tmdbId": "14195",
+          "poster": "https://image.tmdb.org/t/p/w780/gCXUA9BUOSDmOFVfkVBF4v15Td6.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "high-fidelity",
+          "title": "High Fidelity",
+          "year": "2000",
+          "tmdbId": "243",
+          "poster": "https://image.tmdb.org/t/p/w780/e2LZGB62GMhv3Fo8tDZjY87I81a.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-watermelon-woman",
+          "title": "The Watermelon Woman",
+          "year": "1996",
+          "tmdbId": "44479",
+          "poster": "https://image.tmdb.org/t/p/w780/mBBqKfkvzSk6Rk7bfRXU9kR916N.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "bloodsisters-leather-dykes-and-sadomasochism",
+          "title": "BloodSisters: Leather, Dykes, and Sadomasochism",
+          "year": "1995",
+          "tmdbId": "606142",
+          "poster": "https://image.tmdb.org/t/p/w780/9IqXTVTqgKD4kvRzSYm9u3TsS7g.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "evil-dead",
+          "title": "Evil Dead",
+          "year": "2013",
+          "tmdbId": "109428",
+          "poster": "https://image.tmdb.org/t/p/w780/1gDV0Lm9y8ufIKzyf0h0GBgb9Zj.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "climax-2018",
+          "title": "Climax",
+          "year": "2018",
+          "tmdbId": "507076",
+          "poster": "https://image.tmdb.org/t/p/w780/47IXH2iEWwX0F7vIyGXaKQ0psBG.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "a-nightmare-on-elm-street-part-2-freddys-revenge",
+          "title": "A Nightmare on Elm Street Part 2: Freddy's Revenge",
+          "year": "1985",
+          "tmdbId": "10014",
+          "poster": "https://image.tmdb.org/t/p/w780/53kxYw0G3o55yJ23K7s7KMaOyAM.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "scream-queen-my-nightmare-on-elm-street",
+          "title": "Scream, Queen! My Nightmare on Elm Street",
+          "year": "2019",
+          "tmdbId": "321066",
+          "poster": "https://image.tmdb.org/t/p/w780/9CPjyKFKz4gNWE116mLB744pmj6.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "us-2019",
+          "title": "Us",
+          "year": "2019",
+          "tmdbId": "458723",
+          "poster": "https://image.tmdb.org/t/p/w780/ux2dU1jQ2ACIMShzB3yP93Udpzc.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "hellraiser",
+          "title": "Hellraiser",
+          "year": "1987",
+          "tmdbId": "9003",
+          "poster": "https://image.tmdb.org/t/p/w780/3Z0oPHyLnk3Vx6ZMC1MiVwIrKhO.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-substance",
+          "title": "The Substance",
+          "year": "2024",
+          "tmdbId": "933260",
+          "poster": "https://image.tmdb.org/t/p/w780/lqoMzCcZYEFK729d6qzt349fB4o.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "queen-of-the-damned",
+          "title": "Queen of the Damned",
+          "year": "2002",
+          "tmdbId": "11979",
+          "poster": "https://image.tmdb.org/t/p/w780/4MMpvQYgOz8K6lzlIVMXWjLzUPC.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "planet-terror",
+          "title": "Planet Terror",
+          "year": "2007",
+          "tmdbId": "1992",
+          "poster": "https://image.tmdb.org/t/p/w780/3705GxG0RN9XDV5y9IiXKYHw1fK.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "send-help",
+          "title": "Send Help",
+          "year": "2026",
+          "tmdbId": "1198994",
+          "poster": "https://image.tmdb.org/t/p/w780/zbJWVHOtj3ljBzWgL1P8pxP03Up.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "wild-zero",
+          "title": "Wild Zero",
+          "year": "1999",
+          "tmdbId": "16231",
+          "poster": "https://image.tmdb.org/t/p/w780/9HOpvIaFJSwFyDXoULC9hWVdVsS.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "return-of-the-living-dead-iii",
+          "title": "Return of the Living Dead III",
+          "year": "1993",
+          "tmdbId": "28260",
+          "poster": "https://image.tmdb.org/t/p/w780/lu4Eit7pR5I8hGHJmy3K9Re8FPo.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-doom-generation",
+          "title": "The Doom Generation",
+          "year": "1995",
+          "tmdbId": "13552",
+          "poster": "https://image.tmdb.org/t/p/w780/tLfp9fHjydH6wzxukch5PWclga.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "warm-bodies",
+          "title": "Warm Bodies",
+          "year": "2013",
+          "tmdbId": "82654",
+          "poster": "https://image.tmdb.org/t/p/w780/i8vCO3uszvlfBJVEyuIZVUDlt60.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "death-proof",
+          "title": "Death Proof",
+          "year": "2007",
+          "tmdbId": "1991",
+          "poster": "https://image.tmdb.org/t/p/w780/vtu6H4NWnQVqEp3aanUq3hNeeot.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "zombie-flesh-eaters",
+          "title": "Zombie Flesh Eaters",
+          "year": "1979",
+          "tmdbId": "7219",
+          "poster": "https://image.tmdb.org/t/p/w780/jc17a3PqDnQeBzT7GbK0dp8TDvx.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "vamp",
+          "title": "Vamp",
+          "year": "1986",
+          "tmdbId": "34223",
+          "poster": "https://image.tmdb.org/t/p/w780/fWXjESqmqU8QCrfWowVcdeC8Uij.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "may",
+          "title": "May",
+          "year": "2002",
+          "tmdbId": "10894",
+          "poster": "https://image.tmdb.org/t/p/w780/oFXhJYTax1cnNtgvLdKlXuYiWPV.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-bride-2026",
+          "title": "The Bride!",
+          "year": "2026",
+          "tmdbId": "1159831",
+          "poster": "https://image.tmdb.org/t/p/w780/lV8YHwGkYZsm6EfIqnhaSz2avKt.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-beyond",
+          "title": "The Beyond",
+          "year": "1981",
+          "tmdbId": "19204",
+          "poster": "https://image.tmdb.org/t/p/w780/kMSZHq9VYQV1FCbM8nz2zrZShzx.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "hokum",
+          "title": "Hokum",
+          "year": "2026",
+          "tmdbId": "1430077",
+          "poster": "https://image.tmdb.org/t/p/w780/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "vampyros-lesbos",
+          "title": "Vampyros Lesbos",
+          "year": "1971",
+          "tmdbId": "17343",
+          "poster": "https://image.tmdb.org/t/p/w780/qaZc7veACx1vmq6tZtnIT6vLmxM.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "after-hours",
+          "title": "After Hours",
+          "year": "1985",
+          "tmdbId": "10843",
+          "poster": "https://image.tmdb.org/t/p/w780/eamOBurHBu0MIxohTIVcfxmZ6Z7.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "carrie-1976",
+          "title": "Carrie",
+          "year": "1976",
+          "tmdbId": "7340",
+          "poster": "https://image.tmdb.org/t/p/w780/8tT1rqlsTguyfUBMrbHR9cv1rxM.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "youre-next",
+          "title": "You're Next",
+          "year": "2011",
+          "tmdbId": "83899",
+          "poster": "https://image.tmdb.org/t/p/w780/l163jakfKvchUTVTtBi0KA7ZhIc.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "zombieland",
+          "title": "Zombieland",
+          "year": "2009",
+          "tmdbId": "19908",
+          "poster": "https://image.tmdb.org/t/p/w780/dUkAmAyPVqubSBNRjRqCgHggZcK.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "halloween-1978",
+          "title": "Halloween",
+          "year": "1978",
+          "tmdbId": "948",
+          "poster": "https://image.tmdb.org/t/p/w780/wijlZ3HaYMvlDTPqJoTCWKFkCPU.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "halloween-h20-20-years-later",
+          "title": "Halloween H20: 20 Years Later",
+          "year": "1998",
+          "tmdbId": "11675",
+          "poster": "https://image.tmdb.org/t/p/w780/lqLXUm3oK59sGJKRH2Zjj2m3iMg.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "valentine",
+          "title": "Valentine",
+          "year": "2001",
+          "tmdbId": "10984",
+          "poster": "https://image.tmdb.org/t/p/w780/jMtWV4FixMGTgUjbr9NFVEANGYQ.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "terrifier-2",
+          "title": "Terrifier 2",
+          "year": "2022",
+          "tmdbId": "663712",
+          "poster": "https://image.tmdb.org/t/p/w780/qEAlwXbYk6IHA4ztoS2XFFaa7Xo.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "dawn-of-the-dead",
+          "title": "Dawn of the Dead",
+          "year": "1978",
+          "tmdbId": "923",
+          "poster": "https://image.tmdb.org/t/p/w780/70MY8H0bLMvXf8ED2SgVMPhDVVM.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "all-about-evil",
+          "title": "All About Evil",
+          "year": "2010",
+          "tmdbId": "70448",
+          "poster": "https://image.tmdb.org/t/p/w780/vJOtBW2q9mwLuEsxvQxhzQ7i74o.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "fear-street-1978",
+          "title": "Fear Street: 1978",
+          "year": "2021",
+          "tmdbId": "591274",
+          "poster": "https://image.tmdb.org/t/p/w780/5dNTxhoGDTHHGqUTdxcr4H1dqlU.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-hunger-games",
+          "title": "The Hunger Games",
+          "year": "2012",
+          "tmdbId": "70160",
+          "poster": "https://image.tmdb.org/t/p/w780/yXCbOiVDCxO71zI7cuwBRXdftq8.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-hunger-games-catching-fire",
+          "title": "The Hunger Games: Catching Fire",
+          "year": "2013",
+          "tmdbId": "101299",
+          "poster": "https://image.tmdb.org/t/p/w780/vrQHDXjVmbYzadOXQ0UaObunoy2.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "trick-or-treat-1986",
+          "title": "Trick or Treat",
+          "year": "1986",
+          "tmdbId": "25438",
+          "poster": "https://image.tmdb.org/t/p/w780/ycCrGbfuOEcKSCwxQeKA1VEPs7O.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "signs",
+          "title": "Signs",
+          "year": "2002",
+          "tmdbId": "2675",
+          "poster": "https://image.tmdb.org/t/p/w780/YtrIdrTxpRhvCnlw43dwOjfLqx.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "trick-r-treat",
+          "title": "Trick 'r Treat",
+          "year": "2007",
+          "tmdbId": "23202",
+          "poster": "https://image.tmdb.org/t/p/w780/w0nmol4g7n6MFfhfphV7GzHHYjB.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "waves-2019",
+          "title": "Waves",
+          "year": "2019",
+          "tmdbId": "533444",
+          "poster": "https://image.tmdb.org/t/p/w780/3xbjL0z8iH8e8L3USyeKGQrBfuZ.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "from-dusk-till-dawn",
+          "title": "From Dusk Till Dawn",
+          "year": "1996",
+          "tmdbId": "755",
+          "poster": "https://image.tmdb.org/t/p/w780/sV3kIAmvJ9tPz4Lq5fuf9LLMxte.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "groove",
+          "title": "Groove",
+          "year": "2000",
+          "tmdbId": "23655",
+          "poster": "https://image.tmdb.org/t/p/w780/muCr9tOGit6pmsvMMNih0bmYmmC.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-birdcage",
+          "title": "The Birdcage",
+          "year": "1996",
+          "tmdbId": "11000",
+          "poster": "https://image.tmdb.org/t/p/w780/4IpC35BoA5aRO0Q1DpFGJ8iKKYq.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-vampire-lovers",
+          "title": "The Vampire Lovers",
+          "year": "1970",
+          "tmdbId": "31952",
+          "poster": "https://image.tmdb.org/t/p/w780/6MTiYnp62i2kdweHjhchwJscQrj.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "sinners-2025",
+          "title": "Sinners",
+          "year": "2025",
+          "tmdbId": "1233413",
+          "poster": "https://image.tmdb.org/t/p/w780/fWPgbnt2LSqkQ6cdQc0SZN9CpLm.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "tokyo-gore-police",
+          "title": "Tokyo Gore Police",
+          "year": "2008",
+          "tmdbId": "16061",
+          "poster": "https://image.tmdb.org/t/p/w780/d1LqkFMhFO5lfV3uwEpwyTLxXgR.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "to-wong-foo-thanks-for-everything-julie-newmar",
+          "title": "To Wong Foo, Thanks for Everything! Julie Newmar",
+          "year": "1995",
+          "tmdbId": "9090",
+          "poster": "https://image.tmdb.org/t/p/w780/8bkJiI6N8wDxAtQ49bLUt0qCBII.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "house",
+          "title": "House",
+          "year": "1977",
+          "tmdbId": "25623",
+          "poster": "https://image.tmdb.org/t/p/w780/myMnHnG6kxYaQYknnW76VCHBpYT.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "vertigo",
+          "title": "Vertigo",
+          "year": "1958",
+          "tmdbId": "426",
+          "poster": "https://image.tmdb.org/t/p/w780/15uOEfqBNTVtDUT7hGBVCka0rZz.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "its-the-great-pumpkin-charlie-brown",
+          "title": "It's the Great Pumpkin, Charlie Brown",
+          "year": "1966",
+          "tmdbId": "13353",
+          "poster": "https://image.tmdb.org/t/p/w780/59wp9OWexYsxlSPHYmVLsl5xlFt.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "babylon-2022",
+          "title": "Babylon",
+          "year": "2022",
+          "tmdbId": "615777",
+          "poster": "https://image.tmdb.org/t/p/w780/wjOHjWCUE0YzDiEzKv8AfqHj3ir.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "audition",
+          "title": "Audition",
+          "year": "1999",
+          "tmdbId": "11075",
+          "poster": "https://image.tmdb.org/t/p/w780/zwGaUMm0wAqi0wkO7LJDlwoA5LP.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "jason-lives-friday-the-13th-part-vi",
+          "title": "Jason Lives - Friday the 13th Part VI",
+          "year": "1986",
+          "tmdbId": "10225",
+          "poster": "https://image.tmdb.org/t/p/w780/6vdUpHvkspQonXBdWcLWW5ciEPJ.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "backrooms-2026",
+          "title": "Backrooms",
+          "year": "2026",
+          "tmdbId": "1083381",
+          "poster": "https://image.tmdb.org/t/p/w780/rhGx6E3qRNMgj3i5su2oukNHwIQ.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "fantastic-mr-fox",
+          "title": "Fantastic Mr. Fox",
+          "year": "2009",
+          "tmdbId": "10315",
+          "poster": "https://image.tmdb.org/t/p/w780/hhhJN8aJdTlzGmARCbwWflHXhwI.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "scooby-doo",
+          "title": "Scooby-Doo",
+          "year": "2002",
+          "tmdbId": "9637",
+          "poster": "https://image.tmdb.org/t/p/w780/mTAiBJGg8mqEfnYHHbi37ZoRSZm.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "working-girls-1986",
+          "title": "Working Girls",
+          "year": "1986",
+          "tmdbId": "96349",
+          "poster": "https://image.tmdb.org/t/p/w780/rNL99DhSMHPba0jdZ6BdbWhBJSZ.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "scream",
+          "title": "Scream",
+          "year": "1996",
+          "tmdbId": "4232",
+          "poster": "https://image.tmdb.org/t/p/w780/lr9ZIrmuwVmZhpZuTCW8D9g0ZJe.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "slither",
+          "title": "Slither",
+          "year": "2006",
+          "tmdbId": "9035",
+          "poster": "https://image.tmdb.org/t/p/w780/zNlJvCY3Pz7SE09Lf4G7uPs5XFZ.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-drama",
+          "title": "The Drama",
+          "year": "2026",
+          "tmdbId": "1325734",
+          "poster": "https://image.tmdb.org/t/p/w780/qhGCY6DIemLoCi7x1GuEt98m4JF.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "marcel-the-shell-with-shoes-on-2021",
+          "title": "Marcel the Shell with Shoes On",
+          "year": "2021",
+          "tmdbId": "869626",
+          "poster": "https://image.tmdb.org/t/p/w780/jaYmP4Ct8YLnxWAW2oYkUjeXtzm.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "poohs-heffalump-halloween-movie",
+          "title": "Pooh's Heffalump Halloween Movie",
+          "year": "2005",
+          "tmdbId": "14885",
+          "poster": "https://image.tmdb.org/t/p/w780/3zVLrNuuEcNcyCz5SLgYimrkBT3.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "wallace-gromit-the-curse-of-the-were-rabbit",
+          "title": "Wallace & Gromit: The Curse of the Were-Rabbit",
+          "year": "2005",
+          "tmdbId": "533",
+          "poster": "https://image.tmdb.org/t/p/w780/cMQ2lNd7sBe6PCf6zF5QxrKzbRG.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-house-bunny",
+          "title": "The House Bunny",
+          "year": "2008",
+          "tmdbId": "12620",
+          "poster": "https://image.tmdb.org/t/p/w780/4oGGJ824vqIqDtyMvMuK44pDEmx.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "daria-in-is-it-fall-yet",
+          "title": "Daria in 'Is It Fall Yet?'",
+          "year": "2000",
+          "tmdbId": "44756",
+          "poster": "https://image.tmdb.org/t/p/w780/KCRALQVraaSSfK9STb7lrnbwmS.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "mutant-pumpkins-from-outer-space",
+          "title": "Mutant Pumpkins from Outer Space",
+          "year": "2009",
+          "tmdbId": "53985",
+          "poster": "https://image.tmdb.org/t/p/w780/w3R9G8rqrrbMSOufl0QBaNAZPDC.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "night-of-the-living-carrots",
+          "title": "Night of the Living Carrots",
+          "year": "2011",
+          "tmdbId": "118248",
+          "poster": "https://image.tmdb.org/t/p/w780/xncFlpkcWyK5aKmPrvmoJJ7YrTw.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "scared-shrekless",
+          "title": "Scared Shrekless",
+          "year": "2010",
+          "tmdbId": "48466",
+          "poster": "https://image.tmdb.org/t/p/w780/aAQQJhX8NqKZ7ZNDUPQQKi1wK8h.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "paranorman",
+          "title": "ParaNorman",
+          "year": "2012",
+          "tmdbId": "77174",
+          "poster": "https://image.tmdb.org/t/p/w780/9DZPtuYTKYxt6vzHvZ5FLThG4fl.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "rosemarys-baby",
+          "title": "Rosemary's Baby",
+          "year": "1968",
+          "tmdbId": "805",
+          "poster": "https://image.tmdb.org/t/p/w780/uYgvlHceRFjAFbsNeMInYcLZLUb.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-fly-1986",
+          "title": "The Fly",
+          "year": "1986",
+          "tmdbId": "9426",
+          "poster": "https://image.tmdb.org/t/p/w780/8gZWMhJHRvaXdXsNhERtqNHYpH3.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "9",
+          "title": "9",
+          "year": "2009",
+          "tmdbId": "12244",
+          "poster": "https://image.tmdb.org/t/p/w780/3uqXGOH4BQ2CLJWkDJZ0PzbUzOn.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "popcorn",
+          "title": "Popcorn",
+          "year": "1991",
+          "tmdbId": "39875",
+          "poster": "https://image.tmdb.org/t/p/w780/o6peTotMLdRLQ5Hq2oJI5EYurIR.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "idle-hands",
+          "title": "Idle Hands",
+          "year": "1999",
+          "tmdbId": "6552",
+          "poster": "https://image.tmdb.org/t/p/w780/mCO4gU1lkViGXTkoRBEYrvjDIJu.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "return-of-the-living-dead-part-ii",
+          "title": "Return of the Living Dead Part II",
+          "year": "1988",
+          "tmdbId": "24929",
+          "poster": "https://image.tmdb.org/t/p/w780/2zY8kt1HnQ8p8mjKcqBp9yQEC8x.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "coraline",
+          "title": "Coraline",
+          "year": "2009",
+          "tmdbId": "14836",
+          "poster": "https://image.tmdb.org/t/p/w780/4jeFXQYytChdZYE9JYO7Un87IlW.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "jawbreaker",
+          "title": "Jawbreaker",
+          "year": "1999",
+          "tmdbId": "18892",
+          "poster": "https://image.tmdb.org/t/p/w780/7YrxXoG25hVCK4nYDHQv9YIk3Ye.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "phantom-of-the-paradise",
+          "title": "Phantom of the Paradise",
+          "year": "1974",
+          "tmdbId": "27327",
+          "poster": "https://image.tmdb.org/t/p/w780/qDOtGWeSQNwB3dG7Amt1K0JW0az.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "scary-movie-2026",
+          "title": "Scary Movie",
+          "year": "2026",
+          "tmdbId": "1273221",
+          "poster": "https://image.tmdb.org/t/p/w780/1KlYdWoOrbL5ux357rW9LC155qw.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "tucker-and-dale-vs-evil",
+          "title": "Tucker and Dale vs. Evil",
+          "year": "2010",
+          "tmdbId": "46838",
+          "poster": "https://image.tmdb.org/t/p/w780/8shwLEDzajJGSfLgbpac8x8xn1U.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "horror-noire-a-history-of-black-horror",
+          "title": "Horror Noire: A History of Black Horror",
+          "year": "2019",
+          "tmdbId": "574109",
+          "poster": "https://image.tmdb.org/t/p/w780/iTNvR1IwF9v3a7e9MVooT3ZR1GG.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "a-gun-for-jennifer",
+          "title": "A Gun for Jennifer",
+          "year": "1997",
+          "tmdbId": "129311",
+          "poster": "https://image.tmdb.org/t/p/w780/s1zcI84fQpoIPjahvGl0dxXsrGo.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "addams-family-values",
+          "title": "Addams Family Values",
+          "year": "1993",
+          "tmdbId": "2758",
+          "poster": "https://image.tmdb.org/t/p/w780/sdxT2VjVSx9DRicwnuECUdBHeE7.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "leviticus-2026",
+          "title": "Leviticus",
+          "year": "2026",
+          "tmdbId": "1564614",
+          "poster": "https://image.tmdb.org/t/p/w780/cu0XnXLzJGPeI0msCoJKgnEecKz.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "ginger-snaps",
+          "title": "Ginger Snaps",
+          "year": "2000",
+          "tmdbId": "9871",
+          "poster": "https://image.tmdb.org/t/p/w780/ozohDiJd7Oi65NEf8B0ya7lR9Fr.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "corpse-bride",
+          "title": "Corpse Bride",
+          "year": "2005",
+          "tmdbId": "3933",
+          "poster": "https://image.tmdb.org/t/p/w780/3RAoVTxUk1OzZClscAsynuu670p.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "cursed",
+          "title": "Cursed",
+          "year": "2005",
+          "tmdbId": "10012",
+          "poster": "https://image.tmdb.org/t/p/w780/em45jL4CfTMyj5V83kj7rhdorJu.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "scary-movie-2000",
+          "title": "Scary Movie",
+          "year": "2000",
+          "tmdbId": "4247",
+          "poster": "https://image.tmdb.org/t/p/w780/fVQFPRuw3yWXojYDJvA5EoFjUOY.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-faculty",
+          "title": "The Faculty",
+          "year": "1998",
+          "tmdbId": "9276",
+          "poster": "https://image.tmdb.org/t/p/w780/5XetJwmAiDC0EtH23NIXaqFn3Wl.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "final-destination-3",
+          "title": "Final Destination 3",
+          "year": "2006",
+          "tmdbId": "9286",
+          "poster": "https://image.tmdb.org/t/p/w780/p7ARuNKUGPGvkBiDtIDvAzYzonX.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "casper",
+          "title": "Casper",
+          "year": "1995",
+          "tmdbId": "8839",
+          "poster": "https://image.tmdb.org/t/p/w780/2ah8fNJFZVU3vcXhU5xfAYi2eym.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "ms-45",
+          "title": "Ms .45",
+          "year": "1981",
+          "tmdbId": "22171",
+          "poster": "https://image.tmdb.org/t/p/w780/9ulPP8hcBjIrWRqeXsZVjL0uX3E.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "gremlins",
+          "title": "Gremlins",
+          "year": "1984",
+          "tmdbId": "927",
+          "poster": "https://image.tmdb.org/t/p/w780/6m0F7fsXjQvUbCZrPWcJNrjvIui.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "gremlins-2-the-new-batch",
+          "title": "Gremlins 2: The New Batch",
+          "year": "1990",
+          "tmdbId": "928",
+          "poster": "https://image.tmdb.org/t/p/w780/35F5yD7MljvBE2AC0NHAVCoPGEi.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "mile-end-kicks",
+          "title": "Mile End Kicks",
+          "year": "2025",
+          "tmdbId": "1177767",
+          "poster": "https://image.tmdb.org/t/p/w780/qq3Q1tsxAxMqP38YTZKl8m5zmA4.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "titanic-1997",
+          "title": "Titanic",
+          "year": "1997",
+          "tmdbId": "597",
+          "poster": "https://image.tmdb.org/t/p/w780/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "obsession-2025",
+          "title": "Obsession",
+          "year": "2025",
+          "tmdbId": "1339713",
+          "poster": "https://image.tmdb.org/t/p/w780/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "scream-2022",
+          "title": "Scream",
+          "year": "2022",
+          "tmdbId": "646385",
+          "poster": "https://image.tmdb.org/t/p/w780/nD4M4Bx457ryLuKYpxFwQ2IBJ5w.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-nightmare-before-christmas",
+          "title": "The Nightmare Before Christmas",
+          "year": "1993",
+          "tmdbId": "9479",
+          "poster": "https://image.tmdb.org/t/p/w780/oQffRNjK8e19rF7xVYEN8ew0j7b.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "hocus-pocus",
+          "title": "Hocus Pocus",
+          "year": "1993",
+          "tmdbId": "10439",
+          "poster": "https://image.tmdb.org/t/p/w780/by4D4Q9NlUjFSEUA1yrxq6ksXmk.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "killer-klowns-from-outer-space",
+          "title": "Killer Klowns from Outer Space",
+          "year": "1988",
+          "tmdbId": "16296",
+          "poster": "https://image.tmdb.org/t/p/w780/lHdAk5T42ofyi3NTjmrdyR7xPmY.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "beetlejuice",
+          "title": "Beetlejuice",
+          "year": "1988",
+          "tmdbId": "4011",
+          "poster": "https://image.tmdb.org/t/p/w780/nnl6OWkyPpuMm595hmAxNW3rZFn.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "bodies-bodies-bodies",
+          "title": "Bodies Bodies Bodies",
+          "year": "2022",
+          "tmdbId": "520023",
+          "poster": "https://image.tmdb.org/t/p/w780/hSuTjDmqRdy7Dii8ymnF2WILTeP.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "frankenhooker",
+          "title": "Frankenhooker",
+          "year": "1990",
+          "tmdbId": "27274",
+          "poster": "https://image.tmdb.org/t/p/w780/s8Oubzkc2pPdOdj4D23ljZSKRbg.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "jennifers-body",
+          "title": "Jennifer's Body",
+          "year": "2009",
+          "tmdbId": "19994",
+          "poster": "https://image.tmdb.org/t/p/w780/wrkjsGcFJxcQqR56kJUYAEKKg2T.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "its-never-over-jeff-buckley",
+          "title": "It's Never Over, Jeff Buckley",
+          "year": "2025",
+          "tmdbId": "1400381",
+          "poster": "https://image.tmdb.org/t/p/w780/rrKe8bC6UKFKvfZHvbwA9Bq5hkR.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "freddy-vs-jason",
+          "title": "Freddy vs. Jason",
+          "year": "2003",
+          "tmdbId": "6466",
+          "poster": "https://image.tmdb.org/t/p/w780/f9ZASRUfl8Jlco7rgRx3ujPR0P7.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "paris-is-burning",
+          "title": "Paris Is Burning",
+          "year": "1990",
+          "tmdbId": "31225",
+          "poster": "https://image.tmdb.org/t/p/w780/90rCWH41mj9hjHUEy2SOHfuAOl3.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "mtvs-downtown-behind-the-scenes",
+          "title": "MTV’s Downtown: Behind The Scenes",
+          "year": "2000",
+          "tmdbId": "1043901",
+          "poster": "https://image.tmdb.org/t/p/w780/4JYWxyH74B8RHE1vu8Q72JntUZJ.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "i-am-frankelda",
+          "title": "I Am Frankelda",
+          "year": "2025",
+          "tmdbId": "1119090",
+          "poster": "https://image.tmdb.org/t/p/w780/hDzllxB1TQ7uUxVvjnGHirJJovt.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "euphoria-trouble-dont-last-always",
+          "title": "Euphoria: Trouble Don't Last Always",
+          "year": "2020",
+          "tmdbId": "775762",
+          "poster": "https://a.ltrbxd.com/resized/film-poster/6/9/5/0/2/1/695021-euphoria-trouble-don-t-last-always-0-600-0-900-crop.jpg?v=3ee416bd05",
+          "cert": null,
+          "posterSource": "letterboxd"
+        },
+        {
+          "slug": "cemetery-man",
+          "title": "Cemetery Man",
+          "year": "1994",
+          "tmdbId": "21588",
+          "poster": "https://image.tmdb.org/t/p/w780/cI5AV3jCuxmoQp0N7Z16SI2b7Xk.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "red-lips",
+          "title": "Red Lips",
+          "year": "1995",
+          "tmdbId": "27538",
+          "poster": "https://image.tmdb.org/t/p/w780/bfFMtoqkArSZOTdlKw3LJ0msmtA.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "i-love-boosters",
+          "title": "I Love Boosters",
+          "year": "2026",
+          "tmdbId": "1227877",
+          "poster": "https://image.tmdb.org/t/p/w780/4pNKIUFy7tkZiBx0rnSmG9ysRy.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "sanky-panky",
+          "title": "Sanky Panky",
+          "year": "2007",
+          "tmdbId": "55477",
+          "poster": "https://image.tmdb.org/t/p/w780/o43IO9ljZrr0Uhz9LglKaKVSdbA.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "girl-6",
+          "title": "Girl 6",
+          "year": "1996",
+          "tmdbId": "61752",
+          "poster": "https://image.tmdb.org/t/p/w780/1SSYCOTrHucd9aBCyTfbLWcJ2zD.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "garfields-halloween-adventure",
+          "title": "Garfield's Halloween Adventure",
+          "year": "1985",
+          "tmdbId": "15718",
+          "poster": "https://image.tmdb.org/t/p/w780/akgmKfcusFVNF0NzCIvTWg1wkaS.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "scooby-doo-2-monsters-unleashed",
+          "title": "Scooby-Doo 2: Monsters Unleashed",
+          "year": "2004",
+          "tmdbId": "11024",
+          "poster": "https://image.tmdb.org/t/p/w780/5BrXCJrs22bR5KR6mLHluYo6y4m.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "in-the-heights",
+          "title": "In the Heights",
+          "year": "2021",
+          "tmdbId": "467909",
+          "poster": "https://image.tmdb.org/t/p/w780/RO4KoJyoQMQzh9z76d4v4FJMmJ.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "queer-for-fear-the-history-of-queer-horror",
+          "title": "Queer for Fear: The History of Queer Horror",
+          "year": "2022",
+          "tmdbId": null,
+          "poster": "https://a.ltrbxd.com/resized/film-poster/9/6/7/0/1/0/967010-queer-for-fear-the-history-of-queer-horror-0-600-0-900-crop.jpg?v=07f401d8e5",
+          "cert": null,
+          "posterSource": "letterboxd"
+        },
+        {
+          "slug": "scouts-guide-to-the-zombie-apocalypse",
+          "title": "Scouts Guide to the Zombie Apocalypse",
+          "year": "2015",
+          "tmdbId": "273477",
+          "poster": "https://image.tmdb.org/t/p/w780/lUKvvSnjFlazrdh6wyHxHrdMknD.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "let-it-shine",
+          "title": "Let It Shine",
+          "year": "2012",
+          "tmdbId": "114955",
+          "poster": "https://image.tmdb.org/t/p/w780/3qAExkQNXWGm4BP3bQuwXmGGb1c.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "hairspray-2007",
+          "title": "Hairspray",
+          "year": "2007",
+          "tmdbId": "2976",
+          "poster": "https://image.tmdb.org/t/p/w780/fgMka3HtFvI5OgW1eYdR9XpySxH.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "totally-fed-up",
+          "title": "Totally F***ed Up",
+          "year": "1993",
+          "tmdbId": "33560",
+          "poster": "https://image.tmdb.org/t/p/w780/qZBtSTEhlXy0aNTZ40umWLpJr2T.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "scooby-doo-on-zombie-island",
+          "title": "Scooby-Doo on Zombie Island",
+          "year": "1998",
+          "tmdbId": "13151",
+          "poster": "https://image.tmdb.org/t/p/w780/7xliOcDY0vN6kiqHGVzgPMsBX2c.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "real-women-have-curves",
+          "title": "Real Women Have Curves",
+          "year": "2002",
+          "tmdbId": "30309",
+          "poster": "https://image.tmdb.org/t/p/w780/ziemD3ATULYKt399FkO1ZhAwrOH.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "party-girl-1995",
+          "title": "Party Girl",
+          "year": "1995",
+          "tmdbId": "36196",
+          "poster": "https://image.tmdb.org/t/p/w780/cfGEUftQVjvJHTTc3OKbzfsBamT.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "challengers",
+          "title": "Challengers",
+          "year": "2024",
+          "tmdbId": "937287",
+          "poster": "https://image.tmdb.org/t/p/w780/H6vke7zGiuLsz4v4RPeReb9rsv.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "sick-girl-2006",
+          "title": "Sick Girl",
+          "year": "2006",
+          "tmdbId": "334033",
+          "poster": "https://image.tmdb.org/t/p/w780/ayUkeTAikjxC4KTClDX6xyOvsPJ.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "queens-of-the-dead",
+          "title": "Queens of the Dead",
+          "year": "2025",
+          "tmdbId": "1318435",
+          "poster": "https://image.tmdb.org/t/p/w780/mY8JqSMBSiXZh9EbGqUjpF6aacu.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "sugar-spice",
+          "title": "Sugar & Spice",
+          "year": "2001",
+          "tmdbId": "16723",
+          "poster": "https://image.tmdb.org/t/p/w780/etRwjWRjKrXYc7r1vpQLYwVu4ls.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-hot-chick",
+          "title": "The Hot Chick",
+          "year": "2002",
+          "tmdbId": "11852",
+          "poster": "https://image.tmdb.org/t/p/w780/lnnGE4TKa05t20SZ2batuAhXCp4.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "betty-boops-halloween-party",
+          "title": "Betty Boop's Hallowe'en Party",
+          "year": "1933",
+          "tmdbId": "161885",
+          "poster": "https://image.tmdb.org/t/p/w780/jTuzcsn5XBjMwlOVJNIE8klA51g.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "everything-everywhere-all-at-once",
+          "title": "Everything Everywhere All at Once",
+          "year": "2022",
+          "tmdbId": "545611",
+          "poster": "https://image.tmdb.org/t/p/w780/u68AjlvlutfEIcpmbYpKcdi09ut.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "smiley-face",
+          "title": "Smiley Face",
+          "year": "2007",
+          "tmdbId": "13168",
+          "poster": "https://image.tmdb.org/t/p/w780/kGQZGujjw8S6NKs5C8nugsMtol.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "but-im-a-cheerleader",
+          "title": "But I'm a Cheerleader",
+          "year": "1999",
+          "tmdbId": "20770",
+          "poster": "https://image.tmdb.org/t/p/w780/dGEwlAuzTZoZjvsqgT2MRKHnGi8.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "nope",
+          "title": "Nope",
+          "year": "2022",
+          "tmdbId": "762504",
+          "poster": "https://image.tmdb.org/t/p/w780/AcKVlWaNVVVFQwro3nLXqPljcYA.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "black-christmas",
+          "title": "Black Christmas",
+          "year": "1974",
+          "tmdbId": "16938",
+          "poster": "https://image.tmdb.org/t/p/w780/ym0QcbrKNujzDyAU1IHGYUdRWub.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-addams-family",
+          "title": "The Addams Family",
+          "year": "1991",
+          "tmdbId": "2907",
+          "poster": "https://image.tmdb.org/t/p/w780/qFf8anju5f2epI0my8RdwwIXFIP.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "frankenweenie-2012",
+          "title": "Frankenweenie",
+          "year": "2012",
+          "tmdbId": "62214",
+          "poster": "https://image.tmdb.org/t/p/w780/yGjVbLVdZRBlZTTQVBsj2KUjL1s.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "heathers",
+          "title": "Heathers",
+          "year": "1989",
+          "tmdbId": "2640",
+          "poster": "https://image.tmdb.org/t/p/w780/dGbVfM4WlM7uvIbyRehfPZUIgp2.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "nosferatu-2024",
+          "title": "Nosferatu",
+          "year": "2024",
+          "tmdbId": "426063",
+          "poster": "https://image.tmdb.org/t/p/w780/5qGIxdEO841C0tdY8vOdLoRVrr0.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "donnie-darko",
+          "title": "Donnie Darko",
+          "year": "2001",
+          "tmdbId": "141",
+          "poster": "https://image.tmdb.org/t/p/w780/j2AtZFsflxiluaNtajMTI0Avm8C.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "night-of-the-living-dead",
+          "title": "Night of the Living Dead",
+          "year": "1968",
+          "tmdbId": "10331",
+          "poster": "https://image.tmdb.org/t/p/w780/rb2NWyb008u1EcKCOyXs2Nmj0ra.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "saw",
+          "title": "Saw",
+          "year": "2004",
+          "tmdbId": "176",
+          "poster": "https://image.tmdb.org/t/p/w780/rLNSOudrayDBo1uqXjrhxcjODIC.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "cursed-films",
+          "title": "Cursed Films",
+          "year": "2020",
+          "tmdbId": null,
+          "poster": "https://a.ltrbxd.com/resized/film-poster/6/2/1/0/6/2/621062-cursed-films-0-600-0-900-crop.jpg?v=fc888c7bfd",
+          "cert": null,
+          "posterSource": "letterboxd"
+        },
+        {
+          "slug": "the-witch-2015",
+          "title": "The Witch",
+          "year": "2015",
+          "tmdbId": "310131",
+          "poster": "https://image.tmdb.org/t/p/w780/zap5hpFCWSvdWSuPGAQyjUv2wAC.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "get-out-2017",
+          "title": "Get Out",
+          "year": "2017",
+          "tmdbId": "419430",
+          "poster": "https://image.tmdb.org/t/p/w780/tFXcEccSQMf3lfhfXKSU9iRBpa3.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-thing",
+          "title": "The Thing",
+          "year": "1982",
+          "tmdbId": "1091",
+          "poster": "https://image.tmdb.org/t/p/w780/tzGY49kseSE9QAKk47uuDGwnSCu.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "halloween-2018",
+          "title": "Halloween",
+          "year": "2018",
+          "tmdbId": "424139",
+          "poster": "https://image.tmdb.org/t/p/w780/f7JAX5EGk4GgsEnus6OxyzwpFp7.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-elvira-show",
+          "title": "The Elvira Show",
+          "year": "1993",
+          "tmdbId": "1099388",
+          "poster": "https://image.tmdb.org/t/p/w780/vLmOaOMcpGaBFxgcwI0NYGyTcKK.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-perks-of-being-a-wallflower",
+          "title": "The Perks of Being a Wallflower",
+          "year": "2012",
+          "tmdbId": "84892",
+          "poster": "https://image.tmdb.org/t/p/w780/aKCvdFFF5n80P2VdS7d8YBwbCjh.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "a-trip-to-the-moon",
+          "title": "A Trip to the Moon",
+          "year": "1902",
+          "tmdbId": "775",
+          "poster": "https://image.tmdb.org/t/p/w780/9o0v5LLFk51nyTBHZSre6OB37n2.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "death-becomes-her",
+          "title": "Death Becomes Her",
+          "year": "1992",
+          "tmdbId": "9374",
+          "poster": "https://image.tmdb.org/t/p/w780/kkWxyyyWFK5KNk9WVwQuGEC9H9H.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-rocky-horror-picture-show",
+          "title": "The Rocky Horror Picture Show",
+          "year": "1975",
+          "tmdbId": "36685",
+          "poster": "https://image.tmdb.org/t/p/w780/3pyE6ZqDbuJi7zrNzzQzcKTWdmN.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-craft",
+          "title": "The Craft",
+          "year": "1996",
+          "tmdbId": "9100",
+          "poster": "https://image.tmdb.org/t/p/w780/8bW2RdRkloYtEPhbQZN4wcdmJP4.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "ready-or-not-2-here-i-come",
+          "title": "Ready or Not 2: Here I Come",
+          "year": "2026",
+          "tmdbId": "1266127",
+          "poster": "https://image.tmdb.org/t/p/w780/jRf89HVEtBZiSnOXXWDhZOfuTwW.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "psycho",
+          "title": "Psycho",
+          "year": "1960",
+          "tmdbId": "539",
+          "poster": "https://image.tmdb.org/t/p/w780/yz4QVqPx3h1hD1DfqqQkCq3rmxW.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "birth-of-the-living-dead",
+          "title": "Birth of the Living Dead",
+          "year": "2013",
+          "tmdbId": "171795",
+          "poster": "https://image.tmdb.org/t/p/w780/9c8MuQI49HRssx4Ok4ywZinhbxi.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-aggressives",
+          "title": "The Aggressives",
+          "year": "2005",
+          "tmdbId": "92593",
+          "poster": "https://image.tmdb.org/t/p/w780/zBtuGaHgfipnOTQJbTz4qcVtKy1.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "raising-victor-vargas",
+          "title": "Raising Victor Vargas",
+          "year": "2002",
+          "tmdbId": "25461",
+          "poster": "https://image.tmdb.org/t/p/w780/cMHMtMBca8VNxjYICc1WHK1Qqe5.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "american-mary",
+          "title": "American Mary",
+          "year": "2012",
+          "tmdbId": "126277",
+          "poster": "https://image.tmdb.org/t/p/w780/oHwyNKHm41Y6WPRCHL0zOzytGvL.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "elvira-mistress-of-the-dark",
+          "title": "Elvira: Mistress of the Dark",
+          "year": "1988",
+          "tmdbId": "5680",
+          "poster": "https://image.tmdb.org/t/p/w780/tr9ajyzn0xRZhgp30SMdwhzFNJW.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "bones-and-all",
+          "title": "Bones and All",
+          "year": "2022",
+          "tmdbId": "791177",
+          "poster": "https://image.tmdb.org/t/p/w780/dBQuk2LkHjrDsSjueirPQg96GCc.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "white-chicks",
+          "title": "White Chicks",
+          "year": "2004",
+          "tmdbId": "12153",
+          "poster": "https://image.tmdb.org/t/p/w780/aHTUpo45qy9QYIOnVITGGqLoVcA.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "so-i-married-an-axe-murderer",
+          "title": "So I Married an Axe Murderer",
+          "year": "1993",
+          "tmdbId": "10442",
+          "poster": "https://image.tmdb.org/t/p/w780/zQlpQDKDADKlgqfMs1E191ofDJU.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "harold-kumar-go-to-white-castle",
+          "title": "Harold & Kumar Go to White Castle",
+          "year": "2004",
+          "tmdbId": "11282",
+          "poster": "https://image.tmdb.org/t/p/w780/5vO7R4xYlDipTp8gzfRbWegO8eb.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "pecker",
+          "title": "Pecker",
+          "year": "1998",
+          "tmdbId": "11855",
+          "poster": "https://image.tmdb.org/t/p/w780/ox6Myr2r36zr7aqnisQGZp2EW33.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "serial-mom",
+          "title": "Serial Mom",
+          "year": "1994",
+          "tmdbId": "11592",
+          "poster": "https://image.tmdb.org/t/p/w780/3Qlycp68b6TQkC1fMMahpf04Oq8.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "nueba-yol",
+          "title": "Nueba Yol",
+          "year": "1995",
+          "tmdbId": "55475",
+          "poster": "https://image.tmdb.org/t/p/w780/wXJImKBIFIanoZQsx0knEfthpq5.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        }
+      ]
+    },
+    {
+      "slug": "a-nightmare-on-elm-street-ranked",
+      "title": "A Nightmare on Elm Street Ranked",
+      "description": null,
+      "count": 9,
+      "films": [
+        {
+          "slug": "a-nightmare-on-elm-street",
+          "title": "A Nightmare on Elm Street",
+          "year": "1984",
+          "tmdbId": "377",
+          "poster": "https://image.tmdb.org/t/p/w780/b9rMHAAKISRmIonaQd9Cccx0S4X.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "wes-cravens-new-nightmare",
+          "title": "Wes Craven's New Nightmare",
+          "year": "1994",
+          "tmdbId": "11596",
+          "poster": "https://image.tmdb.org/t/p/w780/q5BWxfL1x34nyYSvA3Qo5odleGW.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "a-nightmare-on-elm-street-3-dream-warriors",
+          "title": "A Nightmare on Elm Street 3: Dream Warriors",
+          "year": "1987",
+          "tmdbId": "10072",
+          "poster": "https://image.tmdb.org/t/p/w780/qbtZewU6EGvxi8yFVzwZ31NijLX.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "a-nightmare-on-elm-street-part-2-freddys-revenge",
+          "title": "A Nightmare on Elm Street Part 2: Freddy's Revenge",
+          "year": "1985",
+          "tmdbId": "10014",
+          "poster": "https://image.tmdb.org/t/p/w780/53kxYw0G3o55yJ23K7s7KMaOyAM.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "freddy-vs-jason",
+          "title": "Freddy vs. Jason",
+          "year": "2003",
+          "tmdbId": "6466",
+          "poster": "https://image.tmdb.org/t/p/w780/f9ZASRUfl8Jlco7rgRx3ujPR0P7.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "freddys-dead-the-final-nightmare",
+          "title": "Freddy's Dead: The Final Nightmare",
+          "year": "1991",
+          "tmdbId": "11284",
+          "poster": "https://image.tmdb.org/t/p/w780/e4qh58n2WaG4Gyh9VhjOUeN9Mhv.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "a-nightmare-on-elm-street-the-dream-child",
+          "title": "A Nightmare on Elm Street: The Dream Child",
+          "year": "1989",
+          "tmdbId": "10160",
+          "poster": "https://image.tmdb.org/t/p/w780/kizvpgXQfrAgN8FhOd87LbKk6kO.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "a-nightmare-on-elm-street-4-the-dream-master",
+          "title": "A Nightmare on Elm Street 4: The Dream Master",
+          "year": "1988",
+          "tmdbId": "10131",
+          "poster": "https://image.tmdb.org/t/p/w780/boStYG7jKdoIZTduiOOsUVknD13.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "a-nightmare-on-elm-street-2010",
+          "title": "A Nightmare on Elm Street",
+          "year": "2010",
+          "tmdbId": "23437",
+          "poster": "https://image.tmdb.org/t/p/w780/nsmW28GcNabCUZfP5YtUEe8Li0f.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        }
+      ]
+    },
+    {
+      "slug": "lets-have-a-grimy-pride",
+      "title": "Let's Have a Grimy Pride",
+      "description": "full article! ⛓️‍💥  8 sapphic thriller/horror double features for a grimy pride if you like this older movie, watch this one — check notes for the common themes",
+      "count": 16,
+      "films": [
+        {
+          "slug": "bound",
+          "title": "Bound",
+          "year": "1996",
+          "tmdbId": "9303",
+          "poster": "https://image.tmdb.org/t/p/w780/9qAy6UWVw44dGrsyKrdEMt5qIUM.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "love-lies-bleeding-2024",
+          "title": "Love Lies Bleeding",
+          "year": "2024",
+          "tmdbId": "948549",
+          "poster": "https://image.tmdb.org/t/p/w780/xImj8RLe39YK0lyVu9kXv7ApN8p.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "may",
+          "title": "May",
+          "year": "2002",
+          "tmdbId": "10894",
+          "poster": "https://image.tmdb.org/t/p/w780/oFXhJYTax1cnNtgvLdKlXuYiWPV.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "sick-girl-2006",
+          "title": "Sick Girl",
+          "year": "2006",
+          "tmdbId": "334033",
+          "poster": "https://image.tmdb.org/t/p/w780/ayUkeTAikjxC4KTClDX6xyOvsPJ.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "nowhere",
+          "title": "Nowhere",
+          "year": "1997",
+          "tmdbId": "1811",
+          "poster": "https://image.tmdb.org/t/p/w780/c1TZKfzvATep5x5DthqWjjWtU2l.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "bodies-bodies-bodies",
+          "title": "Bodies Bodies Bodies",
+          "year": "2022",
+          "tmdbId": "520023",
+          "poster": "https://image.tmdb.org/t/p/w780/hSuTjDmqRdy7Dii8ymnF2WILTeP.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-vampire-lovers",
+          "title": "The Vampire Lovers",
+          "year": "1970",
+          "tmdbId": "31952",
+          "poster": "https://image.tmdb.org/t/p/w780/6MTiYnp62i2kdweHjhchwJscQrj.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-handmaiden",
+          "title": "The Handmaiden",
+          "year": "2016",
+          "tmdbId": "290098",
+          "poster": "https://image.tmdb.org/t/p/w780/dLlH4aNHdnmf62umnInL8xPlPzw.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "jennifers-body",
+          "title": "Jennifer's Body",
+          "year": "2009",
+          "tmdbId": "19994",
+          "poster": "https://image.tmdb.org/t/p/w780/wrkjsGcFJxcQqR56kJUYAEKKg2T.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "all-cheerleaders-die",
+          "title": "All Cheerleaders Die",
+          "year": "2013",
+          "tmdbId": "210908",
+          "poster": "https://image.tmdb.org/t/p/w780/sEB1G5XiX6UTDYBzfDSh60Q5KwU.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-blood-spattered-bride",
+          "title": "The Blood Spattered Bride",
+          "year": "1972",
+          "tmdbId": "40365",
+          "poster": "https://image.tmdb.org/t/p/w780/8cdm9lZgePnKb0LUC4t7su1z8S5.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "mulholland-drive",
+          "title": "Mulholland Drive",
+          "year": "2001",
+          "tmdbId": "1018",
+          "poster": "https://image.tmdb.org/t/p/w780/x7A59t6ySylr1L7aubOQEA480vM.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "alucarda",
+          "title": "Alucarda",
+          "year": "1977",
+          "tmdbId": "40074",
+          "poster": "https://image.tmdb.org/t/p/w780/auZZ7zqm7qbLWBTmq4S2fO6L64m.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "red-lips",
+          "title": "Red Lips",
+          "year": "1995",
+          "tmdbId": "27538",
+          "poster": "https://image.tmdb.org/t/p/w780/bfFMtoqkArSZOTdlKw3LJ0msmtA.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-hunger",
+          "title": "The Hunger",
+          "year": "1983",
+          "tmdbId": "11654",
+          "poster": "https://image.tmdb.org/t/p/w780/lFTDtRtK8J55A1LTpwigV7QGQg7.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "queens-of-the-dead",
+          "title": "Queens of the Dead",
+          "year": "2025",
+          "tmdbId": "1318435",
+          "poster": "https://image.tmdb.org/t/p/w780/mY8JqSMBSiXZh9EbGqUjpF6aacu.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        }
+      ]
+    },
+    {
+      "slug": "pixar-ranked",
+      "title": "Pixar Ranked",
+      "description": null,
+      "count": 26,
+      "films": [
+        {
+          "slug": "monsters-inc",
+          "title": "Monsters, Inc.",
+          "year": "2001",
+          "tmdbId": "585",
+          "poster": "https://image.tmdb.org/t/p/w780/wFSpyMsp7H0ttERbxY7Trlv8xry.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "coco-2017",
+          "title": "Coco",
+          "year": "2017",
+          "tmdbId": "354912",
+          "poster": "https://image.tmdb.org/t/p/w780/6Ryitt95xrO8KXuqRGm1fUuNwqF.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "ratatouille",
+          "title": "Ratatouille",
+          "year": "2007",
+          "tmdbId": "2062",
+          "poster": "https://image.tmdb.org/t/p/w780/t3vaWRPSf6WjDSamIkKDs1iQWna.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "finding-nemo",
+          "title": "Finding Nemo",
+          "year": "2003",
+          "tmdbId": "12",
+          "poster": "https://image.tmdb.org/t/p/w780/5lc6nQc0VhWFYFbNv016xze8Jvy.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "soul-2020",
+          "title": "Soul",
+          "year": "2020",
+          "tmdbId": "508442",
+          "poster": "https://image.tmdb.org/t/p/w780/6jmppcaubzLF8wkXM36ganVISCo.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "brave-2012",
+          "title": "Brave",
+          "year": "2012",
+          "tmdbId": "62177",
+          "poster": "https://image.tmdb.org/t/p/w780/1XAuDtMWpL0sYSFK0R6EZate2Ux.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "up",
+          "title": "Up",
+          "year": "2009",
+          "tmdbId": "14160",
+          "poster": "https://image.tmdb.org/t/p/w780/mFvoEwSfLqbcWwFsDjQebn9bzFe.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "monsters-university",
+          "title": "Monsters University",
+          "year": "2013",
+          "tmdbId": "62211",
+          "poster": "https://image.tmdb.org/t/p/w780/y7thwJ7z5Bplv6vwl6RI0yteaDD.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "walle",
+          "title": "WALL·E",
+          "year": "2008",
+          "tmdbId": "10681",
+          "poster": "https://image.tmdb.org/t/p/w780/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "the-incredibles",
+          "title": "The Incredibles",
+          "year": "2004",
+          "tmdbId": "9806",
+          "poster": "https://image.tmdb.org/t/p/w780/2LqaLgk4Z226KkgPJuiOQ58wvrm.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "toy-story",
+          "title": "Toy Story",
+          "year": "1995",
+          "tmdbId": "862",
+          "poster": "https://image.tmdb.org/t/p/w780/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "inside-out-2015",
+          "title": "Inside Out",
+          "year": "2015",
+          "tmdbId": "150540",
+          "poster": "https://image.tmdb.org/t/p/w780/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "toy-story-3",
+          "title": "Toy Story 3",
+          "year": "2010",
+          "tmdbId": "10193",
+          "poster": "https://image.tmdb.org/t/p/w780/AbbXspMOwdvwWZgVN0nabZq03Ec.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "luca-2021",
+          "title": "Luca",
+          "year": "2021",
+          "tmdbId": "508943",
+          "poster": "https://image.tmdb.org/t/p/w780/9x4i9uKGXt8IiiIF5Ey0DIoY738.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "cars",
+          "title": "Cars",
+          "year": "2006",
+          "tmdbId": "920",
+          "poster": "https://image.tmdb.org/t/p/w780/oloVyeBbkVGbFFaUjR8I7Boo7wA.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "finding-dory",
+          "title": "Finding Dory",
+          "year": "2016",
+          "tmdbId": "127380",
+          "poster": "https://image.tmdb.org/t/p/w780/3UVe8NL1E2ZdUZ9EDlKGJY5UzE.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "toy-story-2",
+          "title": "Toy Story 2",
+          "year": "1999",
+          "tmdbId": "863",
+          "poster": "https://image.tmdb.org/t/p/w780/4rbcp3ng8n1MKHjpeqW0L7Fnpzz.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "turning-red",
+          "title": "Turning Red",
+          "year": "2022",
+          "tmdbId": "508947",
+          "poster": "https://image.tmdb.org/t/p/w780/qsdjk9oAKSQMWs0Vt5Pyfh6O4GZ.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "toy-story-4",
+          "title": "Toy Story 4",
+          "year": "2019",
+          "tmdbId": "301528",
+          "poster": "https://image.tmdb.org/t/p/w780/w9kR8qbmQ01HwnvK4alvnQ2ca0L.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "inside-out-2-2024",
+          "title": "Inside Out 2",
+          "year": "2024",
+          "tmdbId": "1022789",
+          "poster": "https://image.tmdb.org/t/p/w780/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "incredibles-2",
+          "title": "Incredibles 2",
+          "year": "2018",
+          "tmdbId": "260513",
+          "poster": "https://image.tmdb.org/t/p/w780/9lFKBtaVIhP7E2Pk0IY1CwTKTMZ.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "cars-2",
+          "title": "Cars 2",
+          "year": "2011",
+          "tmdbId": "49013",
+          "poster": "https://image.tmdb.org/t/p/w780/okIz1HyxeVOMzYwwHUjH2pHi74I.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "hoppers",
+          "title": "Hoppers",
+          "year": "2026",
+          "tmdbId": "1327819",
+          "poster": "https://image.tmdb.org/t/p/w780/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "a-bugs-life",
+          "title": "A Bug's Life",
+          "year": "1998",
+          "tmdbId": "9487",
+          "poster": "https://image.tmdb.org/t/p/w780/Ah3J9OJVc2CNCuH2zMydXy9fmIC.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "cars-3",
+          "title": "Cars 3",
+          "year": "2017",
+          "tmdbId": "260514",
+          "poster": "https://image.tmdb.org/t/p/w780/zg5RDxvIIAKsucjuU2EZJIHEIvz.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        },
+        {
+          "slug": "onward-2020",
+          "title": "Onward",
+          "year": "2020",
+          "tmdbId": "508439",
+          "poster": "https://image.tmdb.org/t/p/w780/f4aul3FyD3jv3v4bul1IrkWZvzq.jpg",
+          "cert": null,
+          "posterSource": "tmdb"
+        }
+      ]
+    }
+  ]
+}
