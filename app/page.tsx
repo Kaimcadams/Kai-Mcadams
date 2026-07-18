@@ -3,19 +3,9 @@ import StreetlampHero from "./components/StreetlampHero";
 import Marquee from "./components/Marquee";
 import FadeIn from "./components/FadeIn";
 import PostCard from "./components/PostCard";
-import FilmCard from "./components/FilmCard";
 import { getPosts } from "@/lib/substack";
 
 export const revalidate = 900;
-
-// `thumb` values are placeholders drawn from art already on the site — they are
-// NOT stills from these films. Swap each for a real frame when available.
-const SELECTED_WORK = [
-  { number: 1, title: "Chambiar AI Demo", role: "Director · Editor", date: "March 2025", thumb: "/city-night.png" },
-  { number: 2, title: "Ridiculous Bitch at NUBLU", role: "Director · Editor", date: "February 2025", thumb: "/streetlamp.png" },
-  { number: 3, title: "Haunted City: Morris-Jumel Mansion", role: "Editor", date: "December 2024", thumb: "/theater.png" },
-  { number: 4, title: "Halloween Manor", role: "Director · Editor", date: "October 2024", thumb: "/about.jpeg" },
-];
 
 export default async function Home() {
   const posts = await getPosts();
@@ -61,28 +51,6 @@ export default async function Home() {
             About →
           </Link>
         </FadeIn>
-      </section>
-
-      {/* SELECTED WORK */}
-      <section className="relative px-6 md:px-20 max-w-[1280px] mx-auto pt-[100px] pb-20 md:pb-28">
-        <FadeIn className="flex items-baseline justify-between mb-16 pb-6 border-b border-[var(--rule)]">
-          <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
-            Selected Film Works
-          </h2>
-          <Link
-            href="/cinematography"
-            className="label hover:text-[var(--cinema)] transition-colors"
-          >
-            View All Work →
-          </Link>
-        </FadeIn>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-16">
-          {SELECTED_WORK.map((film, i) => (
-            <FadeIn key={film.title} delay={i * 0.08}>
-              <FilmCard film={film} />
-            </FadeIn>
-          ))}
-        </div>
       </section>
 
       {/* GOREHOUND GRINDHOUSE - FEATURED PUBLICATION */}
