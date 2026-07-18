@@ -142,8 +142,8 @@ async function fetchArchive(): Promise<Post[]> {
 // so Next caches the rendered page (not the oversized feed payload) for 15 min.
 //
 // RSS wins on overlap because it carries full post bodies; the archive fills in
-// the older posts RSS drops. Those extras have no body, so their detail page
-// falls back to the snippet plus a link out (see the [slug] route).
+// the older posts RSS drops. The archive gives no body, but getPostBySlug fetches
+// it per-post so every detail page still renders full text.
 export async function getPosts(): Promise<Post[]> {
   const [rss, archive] = await Promise.all([fetchAndParse(), fetchArchive()]);
   const bySlug = new Map<string, Post>();
@@ -156,7 +156,37 @@ export async function getPosts(): Promise<Post[]> {
   });
 }
 
+// Full post body by slug. RSS only carries the newest 20, so anything older
+// has empty content until this pulls it from the per-post endpoint, which
+// returns body_html for every published post.
+async function fetchPostContent(slug: string): Promise<string> {
+  try {
+    const res = await fetch(
+      `https://kaimcadams.substack.com/api/v1/posts/${slug}`,
+      {
+        cache: "no-store",
+        headers: { "user-agent": "kai-mcadams-site/1.0" },
+      },
+    );
+    if (!res.ok) {
+      console.error("[substack] post fetch failed", res.status, slug);
+      return "";
+    }
+    const post = (await res.json()) as { body_html?: string | null };
+    return post.body_html ?? "";
+  } catch (err) {
+    console.error("[substack] post fetch failed", slug, err);
+    return "";
+  }
+}
+
 export async function getPostBySlug(slug: string): Promise<Post | null> {
   const posts = await getPosts();
-  return posts.find((p) => p.slug === slug) || null;
+  const post = posts.find((p) => p.slug === slug);
+  if (!post) return null;
+  // Backfill the body for archive-only posts RSS never carried.
+  if (!post.content) {
+    return { ...post, content: await fetchPostContent(slug) };
+  }
+  return post;
 }
