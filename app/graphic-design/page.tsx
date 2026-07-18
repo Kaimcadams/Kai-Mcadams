@@ -1,21 +1,24 @@
 import FadeIn from "../components/FadeIn";
+import GraphicDesignGallery from "../components/GraphicDesignGallery";
 
-const PROJECTS = [
-  {
-    title: "Dead Billiards",
-    subtitle: "Logo and Merchandise",
-    date: "Current",
-  },
-  {
-    title: "Baby Delgado at The Sultan Room",
-    subtitle: "Merchandise",
-    date: "February 2025",
-  },
-  {
-    title: "Ridiculous Bitch at NUBLU",
-    subtitle: "Flyers · Posters",
-    date: "February 2025",
-  },
+// Merch, logos, and flyers. Dimensions are the source files' intrinsic sizes,
+// so the masonry lays each piece out at its natural ratio (no cropping).
+const WORK = [
+  { src: "/gd-01.webp", width: 1500, height: 1500 },
+  { src: "/gd-02.webp", width: 1500, height: 1500 },
+  { src: "/gd-03.webp", width: 1500, height: 1500 },
+  { src: "/gd-04.webp", width: 1500, height: 1500 },
+  { src: "/gd-05.webp", width: 1500, height: 1500 },
+  { src: "/gd-06.webp", width: 1500, height: 1500 },
+  { src: "/gd-07.webp", width: 1500, height: 1500 },
+  { src: "/gd-08.webp", width: 1500, height: 1500 },
+  { src: "/gd-09.webp", width: 1500, height: 1500 },
+  { src: "/gd-10.webp", width: 1500, height: 1500 },
+  { src: "/gd-11.webp", width: 1500, height: 1500 },
+  { src: "/gd-12.webp", width: 1500, height: 1500 },
+  { src: "/gd-13.webp", width: 1500, height: 1500 },
+  { src: "/gd-14.webp", width: 1000, height: 1629 },
+  { src: "/gd-15.webp", width: 750, height: 750 },
 ];
 
 export const metadata = {
@@ -43,32 +46,8 @@ export default function GraphicDesignPage() {
       </section>
 
       <section className="relative px-6 md:px-20 max-w-[1280px] mx-auto pb-32">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-          {PROJECTS.map((project, i) => (
-            <FadeIn key={project.title} delay={i * 0.08}>
-              <article className="group">
-                <div className="relative aspect-[4/5] bg-[var(--ink-3)] border border-[var(--rule)] overflow-hidden transition-colors group-hover:border-[var(--cinema-deep)]">
-                  <span className="absolute top-4 right-4 label-sm">
-                    {project.date}
-                  </span>
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <span className="text-[var(--muted)]/30 text-6xl font-light select-none">
-                      ✕
-                    </span>
-                  </div>
-                </div>
-                <div className="mt-5">
-                  <h3 className="text-xl md:text-2xl font-semibold tracking-tight leading-tight text-[var(--bone)] group-hover:text-[var(--cinema)] transition-colors">
-                    {project.title}
-                  </h3>
-                  <p className="mt-2 label">{project.subtitle}</p>
-                </div>
-              </article>
-            </FadeIn>
-          ))}
-        </div>
+        <GraphicDesignGallery images={WORK} />
       </section>
-
     </>
   );
 }
