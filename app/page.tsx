@@ -58,7 +58,7 @@ export default async function Home() {
             // utilities — the 2x size has to be set here to stick.
             style={{ fontSize: "24px" }}
           >
-            Read more →
+            About →
           </Link>
         </FadeIn>
       </section>
