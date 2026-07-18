@@ -11,6 +11,8 @@ import SmoothScroll from "./components/SmoothScroll";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Grain from "./components/Grain";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 // Clean sans kept as the ultimate readable fallback.
 const inter = Inter({
@@ -62,8 +64,23 @@ export const metadata: Metadata = {
     description:
       "Kai McAdams is a New York–based filmmaker, editor, and critic. Cinema, criticism, and the queer Latinx macabre.",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Kai McAdams — a night skyline with the blackletter wordmark KAI MCADAMS",
+      },
+    ],
   },
-  metadataBase: new URL("https://kai-mcadams.vercel.app"),
+  twitter: {
+    card: "summary_large_image",
+    title: "Kai McAdams · Filmmaker, Editor, Critic",
+    description:
+      "Kai McAdams is a New York–based filmmaker, editor, and critic. Cinema, criticism, and the queer Latinx macabre.",
+    images: ["/og-image.png"],
+  },
+  metadataBase: new URL("https://kaimcadams.vercel.app"),
 };
 
 export default function RootLayout({
@@ -83,6 +100,8 @@ export default function RootLayout({
         <Grain />
         <div className="scanlines" aria-hidden />
         <div className="vignette" aria-hidden />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
