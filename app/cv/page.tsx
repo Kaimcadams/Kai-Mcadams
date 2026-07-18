@@ -69,14 +69,17 @@ function CreditList({ items }: { items: Credit[] }) {
   return (
     <ul className="divide-y divide-[var(--rule)] border-t border-b border-[var(--rule)]">
       {items.map((c, i) => (
-        <li key={i} className="py-5 grid grid-cols-12 gap-4 items-baseline">
+        <li key={i} className="py-5 grid grid-cols-12 gap-x-4 gap-y-1.5 items-baseline">
           <span className="col-span-12 md:col-span-6 text-lg md:text-xl font-semibold tracking-tight text-[var(--bone)]">
             {c.title}
           </span>
-          <span className="col-span-8 md:col-span-4 label">
+          {/* On phones each field takes its own full-width line so long roles
+              and dates never get crushed into a narrow column; md restores the
+              inline 6/4/2 grid. */}
+          <span className="col-span-12 md:col-span-4 label">
             {c.org ? `${c.org} · ${c.role}` : c.role}
           </span>
-          <span className="col-span-4 md:col-span-2 label text-right text-[var(--muted)]">
+          <span className="col-span-12 md:col-span-2 label text-left md:text-right text-[var(--muted)]">
             {c.date}
           </span>
         </li>

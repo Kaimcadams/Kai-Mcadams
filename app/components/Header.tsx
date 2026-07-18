@@ -53,17 +53,26 @@ export default function Header() {
                 width={713}
                 height={104}
                 priority
-                className="h-[34px] md:h-[42px] w-auto"
+                className="w-auto"
                 sizes="(min-width: 768px) 288px, 233px"
                 // Art is light grey (avg 213); this forces it to pure white.
-                style={{ filter: "brightness(0) invert(1)" }}
+                // Fluid height: ~28px on the smallest phones (so it clears the
+                // Menu at 320px) up to 42px on desktop.
+                style={{
+                  filter: "brightness(0) invert(1)",
+                  height: "clamp(28px, 5.5vw, 42px)",
+                  width: "auto",
+                }}
               />
             </Link>
             {/* Centered on the header itself, so the badge and Menu widths
                 don't pull it off-center */}
+            {/* Redundant with the wordmark, and collides with it until the row
+                is genuinely wide — the wordmark tail and this title only clear
+                each other from lg up, so it stays hidden below that. */}
             <Link
               href="/"
-              className={`absolute left-1/2 -translate-x-1/2 text-base md:text-lg font-semibold tracking-tight text-[var(--bone)] hover:text-[var(--cinema)] transition-all duration-500 ${
+              className={`hidden lg:block absolute left-1/2 -translate-x-1/2 text-base md:text-lg font-semibold tracking-tight text-[var(--bone)] hover:text-[var(--cinema)] transition-all duration-500 ${
                 showWordmark
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 -translate-y-2 pointer-events-none"
@@ -77,8 +86,10 @@ export default function Header() {
               aria-label="Open menu"
               className="label pointer-events-auto transition-colors hover:opacity-70"
               // .label is unlayered, so it beats Tailwind's text-* utilities —
-              // size and colour have to be set here to take effect.
-              style={{ fontSize: "36px", color: "#ffffff" }}
+              // size and colour have to be set here to take effect. clamp keeps
+              // the 36px desktop size but scales it down on phones so it doesn't
+              // crowd the wordmark (down to 20px on a 320px screen).
+              style={{ fontSize: "clamp(20px, 5.5vw, 36px)", color: "#ffffff" }}
             >
               Menu
             </button>
