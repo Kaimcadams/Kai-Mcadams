@@ -41,7 +41,8 @@ export default function CalligraphyPage() {
             Calligraphy
           </h1>
           <p className="text-xl md:text-2xl text-[var(--bone-dim)] leading-snug max-w-2xl">
-            Hand-lettering, ink, and the slow work of the pen.
+            Custom hand-lettered calligraphy for invites, signs &amp;
+            storefronts.
           </p>
         </FadeIn>
       </section>
