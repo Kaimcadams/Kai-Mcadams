@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import FadeIn from "@/app/components/FadeIn";
 import Poster from "@/app/components/Poster";
-import { getList, lists, profileUrl } from "@/lib/letterboxd";
+import { getList, lists } from "@/lib/letterboxd";
 
 export function generateStaticParams() {
   return lists.map((l) => ({ slug: l.slug }));
@@ -31,7 +31,6 @@ export default async function ListPage({
   const list = getList(slug);
   if (!list) notFound();
 
-  const listUrl = `${profileUrl}list/${list.slug}/`;
   const isRanked = /ranked/.test(list.slug);
 
   return (
@@ -45,22 +44,15 @@ export default async function ListPage({
             ← Cinema Journalism
           </Link>
         </p>
-        <a
-          href={listUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="group inline-block"
+        <h1
+          className="font-bold tracking-tight leading-[1.0] text-[var(--bone)]"
+          style={{ fontSize: "clamp(2.25rem, 7vw, 5.5rem)" }}
         >
-          <h1
-            className="font-bold tracking-tight leading-[1.0] text-[var(--bone)] group-hover:text-[var(--cinema)] transition-colors"
-            style={{ fontSize: "clamp(2.25rem, 7vw, 5.5rem)" }}
-          >
-            {list.title}
-          </h1>
-        </a>
+          {list.title}
+        </h1>
         <p className="label mt-5">
           {list.count} films · A list by{" "}
-          <span className="text-[var(--bone-dim)]">@vampiriczombie ↗</span>
+          <span className="text-[var(--bone-dim)]">Kai McAdams</span>
         </p>
         {list.description && (
           <p className="mt-6 max-w-2xl text-lg text-[var(--bone-dim)] leading-relaxed">

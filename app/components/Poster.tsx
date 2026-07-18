@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { filmUrl, type LbFilm } from "@/lib/letterboxd";
+import { type LbFilm } from "@/lib/letterboxd";
 
 type Props = {
   film: LbFilm;
@@ -10,16 +10,11 @@ type Props = {
 
 /**
  * A single Letterboxd film poster: 2:3 cover that bounces on hover,
- * with a caption beneath. Links out to the film on Letterboxd.
+ * with a caption beneath. Display only — does not link out to Letterboxd.
  */
 export default function Poster({ film, rank, sizes, priority }: Props) {
   return (
-    <a
-      href={filmUrl(film.slug)}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="poster-card group block"
-    >
+    <div className="poster-card group block">
       <div className="relative aspect-[2/3] w-full overflow-hidden border border-[var(--rule)] bg-[var(--ink-2)]">
         {film.poster ? (
           <Image
@@ -47,6 +42,6 @@ export default function Poster({ film, rank, sizes, priority }: Props) {
         </div>
         {film.year && <div className="label-sm mt-1">{film.year}</div>}
       </div>
-    </a>
+    </div>
   );
 }

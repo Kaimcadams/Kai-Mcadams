@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import FadeIn from "./FadeIn";
-import { getFollowerCount, lists, profileUrl } from "@/lib/letterboxd";
+import { getFollowerCount, lists } from "@/lib/letterboxd";
 
 function ListCard({
   slug,
@@ -50,19 +50,12 @@ export default async function LetterboxdSection() {
   return (
     <section className="relative px-6 md:px-20 max-w-[1280px] mx-auto pt-32 md:pt-44 pb-16 border-b border-[var(--rule)]">
       <FadeIn className="text-center">
-        <a
-          href={profileUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="group inline-block"
+        <h2
+          className="font-bold tracking-tight text-[var(--bone)]"
+          style={{ fontSize: "clamp(2rem, 5vw, 3.5rem)" }}
         >
-          <h2
-            className="font-bold tracking-tight text-[var(--bone)] group-hover:text-[var(--cinema)] transition-colors"
-            style={{ fontSize: "clamp(2rem, 5vw, 3.5rem)" }}
-          >
-            Letterboxd
-          </h2>
-        </a>
+          Letterboxd
+        </h2>
         {followers !== null && (
           <p className="label mt-3">
             {followers.toLocaleString("en-US")} Followers
