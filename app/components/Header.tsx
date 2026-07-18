@@ -45,7 +45,7 @@ export default function Header() {
             <Link
               href="/"
               aria-label="Kai McAdams — home"
-              className="shrink-0 -ml-5 pointer-events-auto"
+              className="shrink-0 -ml-5 pointer-events-auto flex flex-col items-start"
             >
               <Image
                 src="/gorehound-grindhouse-wordmark.png"
@@ -64,6 +64,13 @@ export default function Header() {
                   width: "auto",
                 }}
               />
+              {/* Her name sits beneath the wordmark on phones/tablets, where the
+                  centered title is hidden — hidden itself at lg, where that
+                  centered title takes over. pl-5 cancels the link's -ml-5 so it
+                  aligns under the wordmark's visible left edge. */}
+              <span className="lg:hidden mt-0.5 pl-5 text-[11px] font-semibold tracking-wide text-[var(--bone)]">
+                Kai McAdams
+              </span>
             </Link>
             {/* Centered on the header itself, so the badge and Menu widths
                 don't pull it off-center */}
@@ -84,14 +91,25 @@ export default function Header() {
             <button
               onClick={() => setOpen(true)}
               aria-label="Open menu"
-              className="label pointer-events-auto transition-colors hover:opacity-70"
-              // .label is unlayered, so it beats Tailwind's text-* utilities —
-              // size and colour have to be set here to take effect. clamp keeps
-              // the 36px desktop size but scales it down on phones so it doesn't
-              // crowd the wordmark (down to 20px on a 320px screen).
-              style={{ fontSize: "clamp(20px, 5.5vw, 36px)", color: "#ffffff" }}
+              className="pointer-events-auto transition-opacity hover:opacity-70 flex items-center"
             >
-              Menu
+              {/* Hamburger icon on phones */}
+              <span
+                className="md:hidden flex flex-col gap-[5px]"
+                aria-hidden="true"
+              >
+                <span className="block h-[2px] w-7 rounded-full bg-white" />
+                <span className="block h-[2px] w-7 rounded-full bg-white" />
+                <span className="block h-[2px] w-7 rounded-full bg-white" />
+              </span>
+              {/* "Menu" text from md up. .label is unlayered, so it beats
+                  Tailwind's text-* utilities — size/colour set inline to stick. */}
+              <span
+                className="label hidden md:inline"
+                style={{ fontSize: "36px", color: "#ffffff" }}
+              >
+                Menu
+              </span>
             </button>
           </div>
         </div>
